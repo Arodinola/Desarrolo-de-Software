@@ -2,4 +2,4 @@
 Integrantes: 
 Elmer Eduardo Sabillon Chandia
 Jose Yobany Abrego Lopez
-Asdrubal Josue Galeano Valladares
+Eder Antonio Chacon Alfaro
