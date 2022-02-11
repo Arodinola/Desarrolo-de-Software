@@ -5,3 +5,4 @@ Jose Yobany Abrego Lopez
 Gerson Eduardo Argueta
 Asdrubal Josue Galeano Valladares
 Elias Neftali Mejia Aleman
+Arodi José Manueles Nolasco
