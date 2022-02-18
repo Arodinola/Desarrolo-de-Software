@@ -38,6 +38,7 @@ namespace Farmacia
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel_contenedor = new System.Windows.Forms.Panel();
             this.PRODUCTOS = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.Barra_titulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnrestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).BeginInit();
@@ -120,6 +121,7 @@ namespace Farmacia
             // Menu_vertical
             // 
             this.Menu_vertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.Menu_vertical.Controls.Add(this.panel1);
             this.Menu_vertical.Controls.Add(this.PRODUCTOS);
             this.Menu_vertical.Controls.Add(this.pictureBox1);
             this.Menu_vertical.Dock = System.Windows.Forms.DockStyle.Left;
@@ -149,13 +151,24 @@ namespace Farmacia
             // 
             // PRODUCTOS
             // 
+            this.PRODUCTOS.FlatAppearance.BorderSize = 0;
+            this.PRODUCTOS.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.PRODUCTOS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PRODUCTOS.Location = new System.Drawing.Point(61, 170);
+            this.PRODUCTOS.ForeColor = System.Drawing.Color.White;
+            this.PRODUCTOS.Location = new System.Drawing.Point(4, 170);
             this.PRODUCTOS.Name = "PRODUCTOS";
-            this.PRODUCTOS.Size = new System.Drawing.Size(113, 32);
+            this.PRODUCTOS.Size = new System.Drawing.Size(216, 32);
             this.PRODUCTOS.TabIndex = 0;
             this.PRODUCTOS.Text = "PRODUCTOS";
             this.PRODUCTOS.UseVisualStyleBackColor = true;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel1.Location = new System.Drawing.Point(1, 170);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(5, 32);
+            this.panel1.TabIndex = 0;
             // 
             // Home_Admin
             // 
@@ -190,5 +203,6 @@ namespace Farmacia
         private System.Windows.Forms.PictureBox btnrestaurar;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button PRODUCTOS;
+        private System.Windows.Forms.Panel panel1;
     }
 }
