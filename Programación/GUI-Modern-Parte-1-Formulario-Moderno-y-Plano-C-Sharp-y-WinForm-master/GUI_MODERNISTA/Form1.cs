@@ -44,7 +44,7 @@ namespace GUI_MODERNISTA
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            btnInicio_Click(null, e);
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -86,6 +86,44 @@ namespace GUI_MODERNISTA
         private void button8_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void AbrirFormEnPanel(object formhija)
+        {
+            if (this.panelContenedor.Controls.Count > 0)
+                this.panelContenedor.Controls.RemoveAt(0);
+            Form fh = formhija as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.panelContenedor.Controls.Add(fh);
+            this.panelContenedor.Tag = fh;
+            fh.Show();
+
+        }
+
+        private void btnUsuarios_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new Usuarios());
+        }
+
+        private void btnInicio_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new Inicio());
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new Clientes());
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new Empleados());
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new Proveedores());
         }
     }
 }

@@ -63,9 +63,39 @@ namespace GUI_MODERNISTA.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura {
+            get {
+                object obj = ResourceManager.GetObject("Captura", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Registrar {
             get {
                 object obj = ResourceManager.GetObject("Registrar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2022_02_10_at_11_53_24_PM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2022-02-10 at 11.53.24 PM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2022_02_10_at_11_53_24_PM__1_ {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2022-02-10 at 11.53.24 PM (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
