@@ -9,6 +9,4 @@ C:\Users\LENOVO\Desktop\Analisis y  Diseño\Farmacia\obj\Debug\Farmacia.csproj.C
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Farmacia\obj\Debug\Farmacia.exe
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Farmacia\obj\Debug\Farmacia.pdb
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Farmacia\obj\Debug\Farmacia.Form1.resources
-C:\Users\LENOVO\Desktop\Analisis y  Diseño\Farmacia\obj\Debug\Farmacia.Login.resources
-C:\Users\LENOVO\Desktop\Analisis y  Diseño\Farmacia\obj\Debug\Farmacia.Login_Admin.resources
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Farmacia\obj\Debug\Farmacia.Login_cajero.resources

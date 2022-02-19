@@ -16,7 +16,7 @@ namespace Farmacia
         {
             InitializeComponent();
         }
-        Login inicio = new Login();
+        Login_cajero inicio = new Login_cajero();
 
         private void timer1_Tick(object sender, EventArgs e)
         {

@@ -17,10 +17,13 @@ namespace Farmacia
         {
             InitializeComponent();
         }
+        Home_Admin pantalla = new Home_Admin();
+
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
+
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
@@ -83,6 +86,23 @@ namespace Farmacia
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            pantalla.ShowDialog();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            pantalla.ShowDialog();
         }
     }
 }
