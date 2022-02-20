@@ -44,7 +44,6 @@ namespace Farmacia
             this.btnlogin = new System.Windows.Forms.Button();
             this.linkpass = new System.Windows.Forms.LinkLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.Barra_titulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -246,23 +245,12 @@ namespace Farmacia
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(672, 349);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // Login_cajero
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.ClientSize = new System.Drawing.Size(800, 400);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.linkpass);
             this.Controls.Add(this.btnlogin);
             this.Controls.Add(this.txtpass);
@@ -277,6 +265,8 @@ namespace Farmacia
             this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login_cajero";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Login_cajero_FormClosing);
+            this.Load += new System.EventHandler(this.Login_cajero_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Login_cajero_MouseDown);
             this.Barra_titulo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -308,6 +298,5 @@ namespace Farmacia
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnlogin;
         private System.Windows.Forms.LinkLabel linkpass;
-        private System.Windows.Forms.Button button1;
     }
 }

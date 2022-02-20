@@ -10,3 +10,15 @@ C:\Users\LENOVO\Desktop\Analisis y  Diseño\Farmacia\obj\Debug\Farmacia.exe
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Farmacia\obj\Debug\Farmacia.pdb
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Farmacia\obj\Debug\Farmacia.Form1.resources
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Farmacia\obj\Debug\Farmacia.Login_cajero.resources
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\bin\Debug\Farmacia.exe.config
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\bin\Debug\Farmacia.exe
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\bin\Debug\Farmacia.pdb
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Form1.resources
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Login_cajero.resources
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Properties.Resources.resources
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.csproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.exe
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.pdb
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Home.resources

@@ -16,7 +16,6 @@ namespace Farmacia
         {
             InitializeComponent();
         }
-        Login_cajero inicio = new Login_cajero();
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -27,6 +26,7 @@ namespace Farmacia
             {
                 timer1.Stop();
                 this.Hide();
+                Login_cajero inicio = new Login_cajero();
                 inicio.ShowDialog();
             }
         }

@@ -52,11 +52,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Home_Admin.cs">
+    <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Home_Admin.Designer.cs">
-      <DependentUpon>Home_Admin.cs</DependentUpon>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
     </Compile>
     <Compile Include="Login_cajero.cs">
       <SubType>Form</SubType>
@@ -69,8 +69,8 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Home_Admin.resx">
-      <DependentUpon>Home_Admin.cs</DependentUpon>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login_cajero.resx">
       <DependentUpon>Login_cajero.cs</DependentUpon>
@@ -175,6 +175,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxi1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimazar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\res1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\producto1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venta1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compras1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empleados1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empleados2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pagos1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reportes1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

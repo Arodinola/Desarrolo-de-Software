@@ -9,15 +9,17 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 
+
 namespace Farmacia
 {
+   
     public partial class Login_cajero : Form
     {
         public Login_cajero()
         {
             InitializeComponent();
         }
-        Home_Admin pantalla = new Home_Admin();
+
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -90,8 +92,9 @@ namespace Farmacia
 
         private void btnlogin_Click(object sender, EventArgs e)
         {
+            Home menu = new Home();
             this.Hide();
-            pantalla.ShowDialog();
+            menu.ShowDialog();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -101,8 +104,17 @@ namespace Farmacia
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            pantalla.ShowDialog();
+  
+        }
+
+        private void Login_cajero_Load(object sender, EventArgs e)
+        {
+         
+        }
+
+        private void Login_cajero_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
