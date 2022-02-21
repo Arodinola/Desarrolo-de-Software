@@ -51,17 +51,19 @@ namespace Farmacia
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(750, 200);
+            this.panel1.Size = new System.Drawing.Size(1000, 246);
             this.panel1.TabIndex = 0;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.MediumAquamarine;
-            this.label2.Location = new System.Drawing.Point(54, 163);
+            this.label2.Location = new System.Drawing.Point(72, 201);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 13);
+            this.label2.Size = new System.Drawing.Size(73, 16);
             this.label2.TabIndex = 4;
             this.label2.Text = "Versión 1.1";
             // 
@@ -70,28 +72,32 @@ namespace Farmacia
             this.panel3.BackColor = System.Drawing.Color.Black;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.progressBar2);
-            this.panel3.Location = new System.Drawing.Point(57, 131);
+            this.panel3.Location = new System.Drawing.Point(76, 161);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(659, 29);
+            this.panel3.Size = new System.Drawing.Size(877, 35);
             this.panel3.TabIndex = 2;
             // 
             // progressBar2
             // 
-            this.progressBar2.Location = new System.Drawing.Point(-2, 1);
+            this.progressBar2.Location = new System.Drawing.Point(-3, 1);
+            this.progressBar2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.progressBar2.Maximum = 101;
             this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(659, 23);
+            this.progressBar2.Size = new System.Drawing.Size(879, 28);
             this.progressBar2.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.MediumAquamarine;
-            this.label1.Location = new System.Drawing.Point(694, 115);
+            this.label1.Location = new System.Drawing.Point(925, 142);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(21, 13);
+            this.label1.Size = new System.Drawing.Size(26, 16);
             this.label1.TabIndex = 3;
             this.label1.Text = "0%";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // timer1
             // 
@@ -102,8 +108,9 @@ namespace Farmacia
             // 
             this.pictureBox1.Image = global::Farmacia.Properties.Resources.Farmacia_Familiar;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(750, 146);
+            this.pictureBox1.Size = new System.Drawing.Size(1000, 180);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -111,11 +118,12 @@ namespace Farmacia
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(750, 200);
+            this.ClientSize = new System.Drawing.Size(1000, 246);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

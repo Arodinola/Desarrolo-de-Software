@@ -84,5 +84,27 @@ namespace Farmacia
         {
             Application.Exit();
         }
+
+        private void AbrirFormEnPanel(object formhija)
+        {
+            if (this.panelCont.Controls.Count > 0)
+                this.panelCont.Controls.RemoveAt(0);
+            Form fh = formhija as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.panelCont.Controls.Add(fh);
+            this.panelCont.Tag = fh;
+            fh.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new Clientes());
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new Proveedores());
+        }
     }
 }
