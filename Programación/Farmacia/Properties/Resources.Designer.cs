@@ -243,6 +243,16 @@ namespace Farmacia.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Farmacia1 {
+            get {
+                object obj = ResourceManager.GetObject("Farmacia1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap google_admin_icon_131692__1_ {
             get {
                 object obj = ResourceManager.GetObject("google_admin_icon_131692 (1)", resourceCulture);
