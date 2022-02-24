@@ -462,6 +462,7 @@ namespace Farmacia
             this.ptbBuscarProducto.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.ptbBuscarProducto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ptbBuscarProducto.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ptbBuscarProducto.Image = global::Farmacia.Properties.Resources.xmag_search_find_export_locate_5984__1_;
             this.ptbBuscarProducto.Location = new System.Drawing.Point(292, 172);
             this.ptbBuscarProducto.Name = "ptbBuscarProducto";
             this.ptbBuscarProducto.Size = new System.Drawing.Size(40, 33);

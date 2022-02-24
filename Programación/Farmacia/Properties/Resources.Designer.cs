@@ -10,8 +10,9 @@
 
 namespace Farmacia.Properties {
     using System;
-    
-    
+    using System.Drawing;
+
+
     /// <summary>
     ///   Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
     /// </summary>
@@ -23,7 +24,7 @@ namespace Farmacia.Properties {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
-        
+        internal static Image xmag_search_find_export_locate_5984;
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
@@ -63,9 +64,29 @@ namespace Farmacia.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap add_77928 {
+            get {
+                object obj = ResourceManager.GetObject("add_77928", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap admin_person_user_man_2839 {
             get {
                 object obj = ResourceManager.GetObject("admin_person_user_man_2839", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blue_upgrade_recyclearrows_arrow_azul_12426 {
+            get {
+                object obj = ResourceManager.GetObject("blue_upgrade_recyclearrows_arrow_azul_12426", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -266,6 +287,16 @@ namespace Farmacia.Properties {
         internal static System.Drawing.Bitmap google_admin_icon_131692__1_ {
             get {
                 object obj = ResourceManager.GetObject("google_admin_icon_131692 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_trash_4341321_120557 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder-trash-4341321_120557", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -486,6 +517,16 @@ namespace Farmacia.Properties {
         internal static System.Drawing.Bitmap venta1 {
             get {
                 object obj = ResourceManager.GetObject("venta1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap xmag_search_find_export_locate_5984__1_ {
+            get {
+                object obj = ResourceManager.GetObject("xmag_search_find_export_locate_5984 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

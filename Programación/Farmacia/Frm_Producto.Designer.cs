@@ -1,7 +1,7 @@
 ﻿
 namespace Farmacia
 {
-    partial class Frm_Laboratorio
+    partial class Frm_Producto
     {
         /// <summary>
         /// Required designer variable.
@@ -334,9 +334,9 @@ namespace Farmacia
             // ptbBuscarProducto
             // 
             this.ptbBuscarProducto.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.ptbBuscarProducto.BackgroundImage = global::Farmacia.Properties.Resources.xmag_search_find_export_locate_5984;
             this.ptbBuscarProducto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ptbBuscarProducto.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ptbBuscarProducto.Image = global::Farmacia.Properties.Resources.xmag_search_find_export_locate_5984__1_;
             this.ptbBuscarProducto.Location = new System.Drawing.Point(358, 327);
             this.ptbBuscarProducto.Name = "ptbBuscarProducto";
             this.ptbBuscarProducto.Size = new System.Drawing.Size(40, 33);
@@ -391,7 +391,7 @@ namespace Farmacia
             this.btnAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAgregar.UseVisualStyleBackColor = false;
             // 
-            // Producto
+            // Frm_Producto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -423,7 +423,7 @@ namespace Farmacia
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "Producto";
+            this.Name = "Frm_Producto";
             this.Text = "Productos";
             this.Load += new System.EventHandler(this.Ventas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvProducto)).EndInit();

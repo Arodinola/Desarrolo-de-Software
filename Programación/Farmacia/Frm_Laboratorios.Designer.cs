@@ -37,15 +37,15 @@ namespace Farmacia
             this.label2 = new System.Windows.Forms.Label();
             this.ptbBuscarLaboratorio = new System.Windows.Forms.PictureBox();
             this.dgvLaboratorio = new System.Windows.Forms.DataGridView();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nomb_Laboratorio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nomb_Laboratorio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.ptbBuscarLaboratorio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLaboratorio)).BeginInit();
             this.SuspendLayout();
@@ -136,9 +136,9 @@ namespace Farmacia
             // ptbBuscarLaboratorio
             // 
             this.ptbBuscarLaboratorio.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.ptbBuscarLaboratorio.BackgroundImage = global::Farmacia.Properties.Resources.xmag_search_find_export_locate_5984;
             this.ptbBuscarLaboratorio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ptbBuscarLaboratorio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ptbBuscarLaboratorio.Image = global::Farmacia.Properties.Resources.xmag_search_find_export_locate_5984__1_;
             this.ptbBuscarLaboratorio.Location = new System.Drawing.Point(389, 278);
             this.ptbBuscarLaboratorio.Name = "ptbBuscarLaboratorio";
             this.ptbBuscarLaboratorio.Size = new System.Drawing.Size(40, 33);
@@ -160,6 +160,21 @@ namespace Farmacia
             this.dgvLaboratorio.Name = "dgvLaboratorio";
             this.dgvLaboratorio.Size = new System.Drawing.Size(460, 150);
             this.dgvLaboratorio.TabIndex = 37;
+            // 
+            // ID
+            // 
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
+            // 
+            // Nombre
+            // 
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            // 
+            // Nomb_Laboratorio
+            // 
+            this.Nomb_Laboratorio.HeaderText = "Laboratorio";
+            this.Nomb_Laboratorio.Name = "Nomb_Laboratorio";
             // 
             // textBox3
             // 
@@ -223,21 +238,6 @@ namespace Farmacia
             this.label1.Size = new System.Drawing.Size(88, 18);
             this.label1.TabIndex = 33;
             this.label1.Text = "ID_Producto:";
-            // 
-            // ID
-            // 
-            this.ID.HeaderText = "ID";
-            this.ID.Name = "ID";
-            // 
-            // Nombre
-            // 
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.Name = "Nombre";
-            // 
-            // Nomb_Laboratorio
-            // 
-            this.Nomb_Laboratorio.HeaderText = "Laboratorio";
-            this.Nomb_Laboratorio.Name = "Nomb_Laboratorio";
             // 
             // Frm_Laboratorios
             // 

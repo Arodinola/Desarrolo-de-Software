@@ -54,3 +54,6 @@ C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\F
 C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.csproj.CoreCompileInputs.cache
 C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.exe
 C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.pdb
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Producto.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Laboratorios.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Usos.resources

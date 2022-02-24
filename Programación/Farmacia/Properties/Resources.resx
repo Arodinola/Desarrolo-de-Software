@@ -181,6 +181,9 @@
   <data name="Diseño sin título (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="printer_78349" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printer_783491.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="res" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\res.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -223,6 +226,12 @@
   <data name="cashier2_118191" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cashier2_118191.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="add_77928" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_779281.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue_upgrade_recyclearrows_arrow_azul_12426" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue_upgrade_recyclearrows_arrow_azul_124261.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="iconfindercashiersaleshop4177567-115971_1159441" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfindercashiersaleshop4177567-115971_1159441.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -238,13 +247,16 @@
   <data name="empleados" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\empleados.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="iconfinder-trash-4341321_120557" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconfinder-trash-4341321_1205571.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="clientes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\clientes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="salir1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\salir1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="printer_78349" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\printer_783491.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="xmag_search_find_export_locate_5984 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xmag_search_find_export_locate_5984 (1).ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

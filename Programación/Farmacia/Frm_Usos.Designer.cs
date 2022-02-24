@@ -32,15 +32,15 @@ namespace Farmacia
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dgvUsos = new System.Windows.Forms.DataGridView();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Usos = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.ptbBuscarUsos = new System.Windows.Forms.PictureBox();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Usos = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnActualizar = new System.Windows.Forms.Button();
@@ -88,6 +88,21 @@ namespace Farmacia
             this.dgvUsos.Size = new System.Drawing.Size(460, 150);
             this.dgvUsos.TabIndex = 4;
             this.dgvUsos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // ID
+            // 
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
+            // 
+            // Nombre
+            // 
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            // 
+            // Usos
+            // 
+            this.Usos.HeaderText = "Usos";
+            this.Usos.Name = "Usos";
             // 
             // label4
             // 
@@ -151,29 +166,14 @@ namespace Farmacia
             // ptbBuscarUsos
             // 
             this.ptbBuscarUsos.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.ptbBuscarUsos.BackgroundImage = global::Farmacia.Properties.Resources.xmag_search_find_export_locate_5984;
             this.ptbBuscarUsos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ptbBuscarUsos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ptbBuscarUsos.Image = global::Farmacia.Properties.Resources.xmag_search_find_export_locate_5984__1_;
             this.ptbBuscarUsos.Location = new System.Drawing.Point(374, 276);
             this.ptbBuscarUsos.Name = "ptbBuscarUsos";
             this.ptbBuscarUsos.Size = new System.Drawing.Size(40, 33);
             this.ptbBuscarUsos.TabIndex = 7;
             this.ptbBuscarUsos.TabStop = false;
-            // 
-            // ID
-            // 
-            this.ID.HeaderText = "ID";
-            this.ID.Name = "ID";
-            // 
-            // Nombre
-            // 
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.Name = "Nombre";
-            // 
-            // Usos
-            // 
-            this.Usos.HeaderText = "Usos";
-            this.Usos.Name = "Usos";
             // 
             // textBox2
             // 
