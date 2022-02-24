@@ -58,6 +58,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Ventas.Designer.cs">
+      <DependentUpon>Frm_Ventas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Ventas.resx">
+      <DependentUpon>Frm_Ventas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -235,6 +244,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Farmacia1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_stop_exit_1583 %281%291.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash-can_1153121.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer_783491.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -77,10 +77,11 @@ namespace Farmacia
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(51, 60);
+            this.label1.Location = new System.Drawing.Point(49, 81);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 18);
             this.label1.TabIndex = 0;
@@ -89,8 +90,9 @@ namespace Farmacia
             // 
             // textBox1
             // 
+            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.textBox1.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(142, 61);
+            this.textBox1.Location = new System.Drawing.Point(140, 82);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(144, 22);
             this.textBox1.TabIndex = 2;
@@ -186,7 +188,7 @@ namespace Farmacia
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Sitka Small", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(428, 12);
+            this.label4.Location = new System.Drawing.Point(436, 12);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(173, 52);
             this.label4.TabIndex = 0;
@@ -195,8 +197,9 @@ namespace Farmacia
             // 
             // textBox3
             // 
+            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.textBox3.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(150, 172);
+            this.textBox3.Location = new System.Drawing.Point(150, 183);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(136, 22);
             this.textBox3.TabIndex = 2;
@@ -204,10 +207,11 @@ namespace Farmacia
             // 
             // label6
             // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(35, 95);
+            this.label6.Location = new System.Drawing.Point(33, 116);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(111, 18);
             this.label6.TabIndex = 0;
@@ -216,18 +220,20 @@ namespace Farmacia
             // 
             // textBox4
             // 
+            this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.textBox4.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(142, 95);
+            this.textBox4.Location = new System.Drawing.Point(140, 116);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(254, 22);
             this.textBox4.TabIndex = 2;
             // 
             // label8
             // 
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label8.Location = new System.Drawing.Point(35, 172);
+            this.label8.Location = new System.Drawing.Point(35, 183);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(113, 18);
             this.label8.TabIndex = 0;
@@ -453,16 +459,16 @@ namespace Farmacia
             // 
             // ptbBuscarProducto
             // 
-            this.ptbBuscarProducto.BackgroundImage = global::Farmacia.Properties.Resources.xmag_search_find_export_locate_5984;
+            this.ptbBuscarProducto.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.ptbBuscarProducto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ptbBuscarProducto.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ptbBuscarProducto.Location = new System.Drawing.Point(292, 161);
+            this.ptbBuscarProducto.Location = new System.Drawing.Point(292, 172);
             this.ptbBuscarProducto.Name = "ptbBuscarProducto";
             this.ptbBuscarProducto.Size = new System.Drawing.Size(40, 33);
             this.ptbBuscarProducto.TabIndex = 7;
             this.ptbBuscarProducto.TabStop = false;
             // 
-            // Ventas
+            // Frm_Ventas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -489,7 +495,7 @@ namespace Farmacia
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "Ventas";
+            this.Name = "Frm_Ventas";
             this.Text = "Ventas";
             this.Load += new System.EventHandler(this.Ventas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvProducto)).EndInit();
