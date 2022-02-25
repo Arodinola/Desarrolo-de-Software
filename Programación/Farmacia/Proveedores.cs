@@ -21,5 +21,15 @@ namespace Farmacia
         {
             this.Close();
         }
+
+        private void chkCodigo_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
