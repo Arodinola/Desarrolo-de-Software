@@ -1,7 +1,7 @@
 ﻿
 namespace Farmacia
 {
-    partial class Frm_Laboratorios
+    partial class Frm_CategoriaProducto
     {
         /// <summary>
         /// Required designer variable.
@@ -35,13 +35,12 @@ namespace Farmacia
             this.btnAgregar = new System.Windows.Forms.Button();
             this.ptbBuscarLaboratorio = new System.Windows.Forms.PictureBox();
             this.dgvLaboratorio = new System.Windows.Forms.DataGridView();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nomb_Laboratorio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Categoria_Producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.ptbBuscarLaboratorio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLaboratorio)).BeginInit();
             this.SuspendLayout();
@@ -53,11 +52,11 @@ namespace Farmacia
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Sitka Small", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(337, 25);
+            this.label4.Location = new System.Drawing.Point(199, 19);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(291, 52);
+            this.label4.Size = new System.Drawing.Size(380, 52);
             this.label4.TabIndex = 0;
-            this.label4.Text = "LABORATORIO";
+            this.label4.Text = "Categoria Producto";
             this.label4.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnActualizar
@@ -68,7 +67,7 @@ namespace Farmacia
             this.btnActualizar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnActualizar.Image = global::Farmacia.Properties.Resources.blue_upgrade_recyclearrows_arrow_azul_12426;
             this.btnActualizar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnActualizar.Location = new System.Drawing.Point(757, 147);
+            this.btnActualizar.Location = new System.Drawing.Point(662, 149);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(98, 43);
             this.btnActualizar.TabIndex = 43;
@@ -84,7 +83,7 @@ namespace Farmacia
             this.btnEliminarProduc.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnEliminarProduc.Image = global::Farmacia.Properties.Resources.iconfinder_trash_4341321_120557;
             this.btnEliminarProduc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliminarProduc.Location = new System.Drawing.Point(757, 196);
+            this.btnEliminarProduc.Location = new System.Drawing.Point(662, 90);
             this.btnEliminarProduc.Name = "btnEliminarProduc";
             this.btnEliminarProduc.Size = new System.Drawing.Size(98, 43);
             this.btnEliminarProduc.TabIndex = 42;
@@ -100,7 +99,7 @@ namespace Farmacia
             this.btnAgregar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnAgregar.Image = global::Farmacia.Properties.Resources.add_77928;
             this.btnAgregar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAgregar.Location = new System.Drawing.Point(757, 93);
+            this.btnAgregar.Location = new System.Drawing.Point(662, 28);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(98, 43);
             this.btnAgregar.TabIndex = 41;
@@ -114,7 +113,7 @@ namespace Farmacia
             this.ptbBuscarLaboratorio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ptbBuscarLaboratorio.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ptbBuscarLaboratorio.Image = global::Farmacia.Properties.Resources.xmag_search_find_export_locate_5984__1_;
-            this.ptbBuscarLaboratorio.Location = new System.Drawing.Point(277, 286);
+            this.ptbBuscarLaboratorio.Location = new System.Drawing.Point(291, 213);
             this.ptbBuscarLaboratorio.Name = "ptbBuscarLaboratorio";
             this.ptbBuscarLaboratorio.Size = new System.Drawing.Size(40, 33);
             this.ptbBuscarLaboratorio.TabIndex = 38;
@@ -128,34 +127,18 @@ namespace Farmacia
             this.dgvLaboratorio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvLaboratorio.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
-            this.Nombre,
-            this.Nomb_Laboratorio});
+            this.Categoria_Producto});
             this.dgvLaboratorio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dgvLaboratorio.Location = new System.Drawing.Point(68, 325);
+            this.dgvLaboratorio.Location = new System.Drawing.Point(93, 252);
             this.dgvLaboratorio.Name = "dgvLaboratorio";
-            this.dgvLaboratorio.Size = new System.Drawing.Size(640, 150);
+            this.dgvLaboratorio.Size = new System.Drawing.Size(733, 150);
             this.dgvLaboratorio.TabIndex = 37;
-            // 
-            // ID
-            // 
-            this.ID.HeaderText = "ID";
-            this.ID.Name = "ID";
-            // 
-            // Nombre
-            // 
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.Name = "Nombre";
-            // 
-            // Nomb_Laboratorio
-            // 
-            this.Nomb_Laboratorio.HeaderText = "Laboratorio";
-            this.Nomb_Laboratorio.Name = "Nomb_Laboratorio";
             // 
             // textBox3
             // 
             this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.textBox3.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(135, 293);
+            this.textBox3.Location = new System.Drawing.Point(149, 216);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(136, 22);
             this.textBox3.TabIndex = 34;
@@ -164,7 +147,7 @@ namespace Farmacia
             // 
             this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.textBox4.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(135, 155);
+            this.textBox4.Location = new System.Drawing.Point(247, 130);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(254, 22);
             this.textBox4.TabIndex = 35;
@@ -175,7 +158,7 @@ namespace Farmacia
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label8.Location = new System.Drawing.Point(68, 293);
+            this.label8.Location = new System.Drawing.Point(90, 216);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(54, 18);
             this.label8.TabIndex = 31;
@@ -187,19 +170,31 @@ namespace Farmacia
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(68, 158);
+            this.label6.Location = new System.Drawing.Point(157, 133);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(61, 18);
+            this.label6.Size = new System.Drawing.Size(71, 18);
             this.label6.TabIndex = 32;
-            this.label6.Text = "Nombre:";
+            this.label6.Text = "Categoria:";
             // 
-            // Frm_Laboratorios
+            // ID
+            // 
+            this.ID.FillWeight = 20.30457F;
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
+            // 
+            // Categoria_Producto
+            // 
+            this.Categoria_Producto.FillWeight = 179.6954F;
+            this.Categoria_Producto.HeaderText = "Categoria del Producto";
+            this.Categoria_Producto.Name = "Categoria_Producto";
+            // 
+            // Frm_CategoriaProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.ClientSize = new System.Drawing.Size(913, 576);
+            this.ClientSize = new System.Drawing.Size(913, 431);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnEliminarProduc);
             this.Controls.Add(this.btnAgregar);
@@ -211,7 +206,7 @@ namespace Farmacia
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "Frm_Laboratorios";
+            this.Name = "Frm_CategoriaProducto";
             this.Text = "Laboratorio";
             this.Load += new System.EventHandler(this.Ventas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ptbBuscarLaboratorio)).EndInit();
@@ -228,12 +223,11 @@ namespace Farmacia
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.PictureBox ptbBuscarLaboratorio;
         private System.Windows.Forms.DataGridView dgvLaboratorio;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nomb_Laboratorio;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Categoria_Producto;
     }
 }

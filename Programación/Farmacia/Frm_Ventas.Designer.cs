@@ -81,7 +81,7 @@ namespace Farmacia
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(49, 81);
+            this.label1.Location = new System.Drawing.Point(49, 78);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 18);
             this.label1.TabIndex = 0;
@@ -92,7 +92,7 @@ namespace Farmacia
             // 
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.textBox1.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(140, 82);
+            this.textBox1.Location = new System.Drawing.Point(140, 79);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(144, 22);
             this.textBox1.TabIndex = 2;
@@ -101,7 +101,7 @@ namespace Farmacia
             // 
             this.txtVendedor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.txtVendedor.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtVendedor.Location = new System.Drawing.Point(884, 528);
+            this.txtVendedor.Location = new System.Drawing.Point(934, 523);
             this.txtVendedor.Name = "txtVendedor";
             this.txtVendedor.Size = new System.Drawing.Size(136, 22);
             this.txtVendedor.TabIndex = 2;
@@ -113,7 +113,7 @@ namespace Farmacia
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(793, 531);
+            this.label3.Location = new System.Drawing.Point(843, 526);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(72, 18);
             this.label3.TabIndex = 3;
@@ -135,9 +135,9 @@ namespace Farmacia
             this.Categoria,
             this.Usos});
             this.dgvProducto.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dgvProducto.Location = new System.Drawing.Point(13, 221);
+            this.dgvProducto.Location = new System.Drawing.Point(13, 218);
             this.dgvProducto.Name = "dgvProducto";
-            this.dgvProducto.Size = new System.Drawing.Size(839, 150);
+            this.dgvProducto.Size = new System.Drawing.Size(800, 150);
             this.dgvProducto.TabIndex = 4;
             this.dgvProducto.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -190,7 +190,7 @@ namespace Farmacia
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label4.Location = new System.Drawing.Point(436, 12);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(173, 52);
+            this.label4.Size = new System.Drawing.Size(172, 52);
             this.label4.TabIndex = 0;
             this.label4.Text = "VENTAS";
             this.label4.Click += new System.EventHandler(this.label1_Click);
@@ -199,7 +199,7 @@ namespace Farmacia
             // 
             this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.textBox3.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(150, 183);
+            this.textBox3.Location = new System.Drawing.Point(150, 180);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(136, 22);
             this.textBox3.TabIndex = 2;
@@ -211,7 +211,7 @@ namespace Farmacia
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(33, 116);
+            this.label6.Location = new System.Drawing.Point(33, 113);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(111, 18);
             this.label6.TabIndex = 0;
@@ -222,7 +222,7 @@ namespace Farmacia
             // 
             this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.textBox4.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(140, 116);
+            this.textBox4.Location = new System.Drawing.Point(140, 113);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(254, 22);
             this.textBox4.TabIndex = 2;
@@ -233,7 +233,7 @@ namespace Farmacia
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label8.Location = new System.Drawing.Point(35, 183);
+            this.label8.Location = new System.Drawing.Point(35, 180);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(113, 18);
             this.label8.TabIndex = 0;
@@ -253,9 +253,9 @@ namespace Farmacia
             this.Cantidad_Produc,
             this.Total_Produc});
             this.dgvDetalleProducto.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dgvDetalleProducto.Location = new System.Drawing.Point(12, 400);
+            this.dgvDetalleProducto.Location = new System.Drawing.Point(12, 397);
             this.dgvDetalleProducto.Name = "dgvDetalleProducto";
-            this.dgvDetalleProducto.Size = new System.Drawing.Size(533, 150);
+            this.dgvDetalleProducto.Size = new System.Drawing.Size(583, 150);
             this.dgvDetalleProducto.TabIndex = 8;
             this.dgvDetalleProducto.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDetalleProducto_CellContentClick);
             // 
@@ -290,7 +290,7 @@ namespace Farmacia
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label5.Location = new System.Drawing.Point(26, 379);
+            this.label5.Location = new System.Drawing.Point(26, 376);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(115, 18);
             this.label5.TabIndex = 9;
@@ -303,7 +303,7 @@ namespace Farmacia
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(788, 172);
+            this.label2.Location = new System.Drawing.Point(749, 160);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 18);
             this.label2.TabIndex = 6;
@@ -321,9 +321,9 @@ namespace Farmacia
             this.groupBox1.Controls.Add(this.textBox8);
             this.groupBox1.Controls.Add(this.textBox6);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox1.Location = new System.Drawing.Point(840, 12);
+            this.groupBox1.Location = new System.Drawing.Point(868, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(196, 157);
+            this.groupBox1.Size = new System.Drawing.Size(218, 191);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "FACTURACION";
@@ -331,42 +331,43 @@ namespace Farmacia
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label13.Location = new System.Drawing.Point(12, 113);
+            this.label13.Location = new System.Drawing.Point(12, 129);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(31, 13);
+            this.label13.Size = new System.Drawing.Size(62, 24);
             this.label13.TabIndex = 0;
-            this.label13.Text = "Total";
+            this.label13.Text = "Total:";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label12.Location = new System.Drawing.Point(13, 89);
+            this.label12.Location = new System.Drawing.Point(47, 89);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(24, 13);
+            this.label12.Size = new System.Drawing.Size(27, 13);
             this.label12.TabIndex = 0;
-            this.label12.Text = "IVS";
+            this.label12.Text = "IVS:";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label11.Location = new System.Drawing.Point(12, 23);
+            this.label11.Location = new System.Drawing.Point(21, 23);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(50, 13);
+            this.label11.Size = new System.Drawing.Size(53, 13);
             this.label11.TabIndex = 0;
-            this.label11.Text = "SubTotal";
+            this.label11.Text = "SubTotal:";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label9.Location = new System.Drawing.Point(13, 56);
+            this.label9.Location = new System.Drawing.Point(12, 56);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(59, 13);
+            this.label9.Size = new System.Drawing.Size(62, 13);
             this.label9.TabIndex = 0;
-            this.label9.Text = "Descuento";
+            this.label9.Text = "Descuento:";
             // 
             // textBox10
             // 
@@ -378,10 +379,10 @@ namespace Farmacia
             // 
             // textBox9
             // 
-            this.textBox9.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(85, 107);
+            this.textBox9.Font = new System.Drawing.Font("Sitka Small", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox9.Location = new System.Drawing.Point(85, 122);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(90, 22);
+            this.textBox9.Size = new System.Drawing.Size(90, 31);
             this.textBox9.TabIndex = 2;
             // 
             // textBox8
@@ -403,7 +404,7 @@ namespace Farmacia
             // txtCantidad
             // 
             this.txtCantidad.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.txtCantidad.Location = new System.Drawing.Point(729, 195);
+            this.txtCantidad.Location = new System.Drawing.Point(690, 183);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(123, 20);
             this.txtCantidad.TabIndex = 14;
@@ -417,7 +418,7 @@ namespace Farmacia
             this.btnImprimirFactura.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnImprimirFactura.Image = global::Farmacia.Properties.Resources.printer_78349;
             this.btnImprimirFactura.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnImprimirFactura.Location = new System.Drawing.Point(894, 462);
+            this.btnImprimirFactura.Location = new System.Drawing.Point(944, 457);
             this.btnImprimirFactura.Name = "btnImprimirFactura";
             this.btnImprimirFactura.Size = new System.Drawing.Size(126, 43);
             this.btnImprimirFactura.TabIndex = 13;
@@ -433,7 +434,7 @@ namespace Farmacia
             this.btnQuitarProduc.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnQuitarProduc.Image = global::Farmacia.Properties.Resources.trash_can_115312;
             this.btnQuitarProduc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuitarProduc.Location = new System.Drawing.Point(894, 398);
+            this.btnQuitarProduc.Location = new System.Drawing.Point(944, 393);
             this.btnQuitarProduc.Name = "btnQuitarProduc";
             this.btnQuitarProduc.Size = new System.Drawing.Size(126, 43);
             this.btnQuitarProduc.TabIndex = 12;
@@ -449,9 +450,9 @@ namespace Farmacia
             this.btnCancelar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnCancelar.Image = global::Farmacia.Properties.Resources.cancel_stop_exit_1583__1_;
             this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancelar.Location = new System.Drawing.Point(905, 328);
+            this.btnCancelar.Location = new System.Drawing.Point(944, 323);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(98, 43);
+            this.btnCancelar.Size = new System.Drawing.Size(126, 43);
             this.btnCancelar.TabIndex = 11;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -463,7 +464,7 @@ namespace Farmacia
             this.ptbBuscarProducto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ptbBuscarProducto.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ptbBuscarProducto.Image = global::Farmacia.Properties.Resources.xmag_search_find_export_locate_5984__1_;
-            this.ptbBuscarProducto.Location = new System.Drawing.Point(292, 172);
+            this.ptbBuscarProducto.Location = new System.Drawing.Point(292, 169);
             this.ptbBuscarProducto.Name = "ptbBuscarProducto";
             this.ptbBuscarProducto.Size = new System.Drawing.Size(40, 33);
             this.ptbBuscarProducto.TabIndex = 7;
@@ -475,7 +476,7 @@ namespace Farmacia
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.ClientSize = new System.Drawing.Size(1048, 576);
+            this.ClientSize = new System.Drawing.Size(1098, 571);
             this.Controls.Add(this.txtCantidad);
             this.Controls.Add(this.btnImprimirFactura);
             this.Controls.Add(this.btnQuitarProduc);

@@ -57,3 +57,23 @@ C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\F
 C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Producto.resources
 C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Laboratorios.resources
 C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Usos.resources
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\bin\Debug\Farmacia.exe.config
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\bin\Debug\Farmacia.exe
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\bin\Debug\Farmacia.pdb
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.csproj.AssemblyReference.cache
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.csproj.SuggestedBindingRedirects.cache
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Clientes.resources
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Form1.resources
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Laboratorios.resources
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Producto.resources
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Usos.resources
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Ventas.resources
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Home.resources
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Login_cajero.resources
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Properties.Resources.resources
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Proveedores.resources
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.csproj.GenerateResource.cache
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.csproj.CoreCompileInputs.cache
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.exe
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.pdb
+C:\CLASES\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_CategoriaProducto.resources
