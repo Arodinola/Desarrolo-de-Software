@@ -30,6 +30,8 @@ namespace Farmacia
         private void InitializeComponent()
         {
             this.dgvUsos = new System.Windows.Forms.DataGridView();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Usos = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -39,8 +41,6 @@ namespace Farmacia
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnEliminarProduc = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Usos = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbBuscarUsos)).BeginInit();
             this.SuspendLayout();
@@ -55,11 +55,23 @@ namespace Farmacia
             this.ID,
             this.Usos});
             this.dgvUsos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dgvUsos.Location = new System.Drawing.Point(23, 312);
+            this.dgvUsos.Location = new System.Drawing.Point(23, 303);
             this.dgvUsos.Name = "dgvUsos";
-            this.dgvUsos.Size = new System.Drawing.Size(631, 150);
+            this.dgvUsos.Size = new System.Drawing.Size(704, 150);
             this.dgvUsos.TabIndex = 4;
             this.dgvUsos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // ID
+            // 
+            this.ID.FillWeight = 30.45685F;
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
+            // 
+            // Usos
+            // 
+            this.Usos.FillWeight = 134.7716F;
+            this.Usos.HeaderText = "Usos";
+            this.Usos.Name = "Usos";
             // 
             // label4
             // 
@@ -79,7 +91,7 @@ namespace Farmacia
             // 
             this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.textBox3.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(88, 277);
+            this.textBox3.Location = new System.Drawing.Point(88, 268);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(136, 22);
             this.textBox3.TabIndex = 2;
@@ -91,7 +103,7 @@ namespace Farmacia
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(41, 136);
+            this.label6.Location = new System.Drawing.Point(41, 127);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(41, 18);
             this.label6.TabIndex = 0;
@@ -102,9 +114,10 @@ namespace Farmacia
             // 
             this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.textBox4.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(88, 136);
+            this.textBox4.Location = new System.Drawing.Point(88, 127);
+            this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(254, 22);
+            this.textBox4.Size = new System.Drawing.Size(254, 55);
             this.textBox4.TabIndex = 2;
             // 
             // label8
@@ -113,7 +126,7 @@ namespace Farmacia
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label8.Location = new System.Drawing.Point(29, 280);
+            this.label8.Location = new System.Drawing.Point(29, 271);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(54, 18);
             this.label8.TabIndex = 0;
@@ -126,7 +139,7 @@ namespace Farmacia
             this.ptbBuscarUsos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ptbBuscarUsos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ptbBuscarUsos.Image = global::Farmacia.Properties.Resources.xmag_search_find_export_locate_5984__1_;
-            this.ptbBuscarUsos.Location = new System.Drawing.Point(241, 266);
+            this.ptbBuscarUsos.Location = new System.Drawing.Point(241, 257);
             this.ptbBuscarUsos.Name = "ptbBuscarUsos";
             this.ptbBuscarUsos.Size = new System.Drawing.Size(40, 33);
             this.ptbBuscarUsos.TabIndex = 7;
@@ -140,7 +153,7 @@ namespace Farmacia
             this.btnActualizar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnActualizar.Image = global::Farmacia.Properties.Resources.blue_upgrade_recyclearrows_arrow_azul_12426;
             this.btnActualizar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnActualizar.Location = new System.Drawing.Point(663, 236);
+            this.btnActualizar.Location = new System.Drawing.Point(736, 227);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(98, 43);
             this.btnActualizar.TabIndex = 30;
@@ -156,7 +169,7 @@ namespace Farmacia
             this.btnEliminarProduc.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnEliminarProduc.Image = global::Farmacia.Properties.Resources.iconfinder_trash_4341321_120557;
             this.btnEliminarProduc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliminarProduc.Location = new System.Drawing.Point(663, 177);
+            this.btnEliminarProduc.Location = new System.Drawing.Point(736, 168);
             this.btnEliminarProduc.Name = "btnEliminarProduc";
             this.btnEliminarProduc.Size = new System.Drawing.Size(98, 43);
             this.btnEliminarProduc.TabIndex = 29;
@@ -172,7 +185,7 @@ namespace Farmacia
             this.btnAgregar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnAgregar.Image = global::Farmacia.Properties.Resources.add_77928;
             this.btnAgregar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAgregar.Location = new System.Drawing.Point(663, 115);
+            this.btnAgregar.Location = new System.Drawing.Point(736, 106);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(98, 43);
             this.btnAgregar.TabIndex = 28;
@@ -180,25 +193,13 @@ namespace Farmacia
             this.btnAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAgregar.UseVisualStyleBackColor = false;
             // 
-            // ID
-            // 
-            this.ID.FillWeight = 30.45685F;
-            this.ID.HeaderText = "ID";
-            this.ID.Name = "ID";
-            // 
-            // Usos
-            // 
-            this.Usos.FillWeight = 134.7716F;
-            this.Usos.HeaderText = "Usos";
-            this.Usos.Name = "Usos";
-            // 
             // Frm_Usos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.ClientSize = new System.Drawing.Size(818, 555);
+            this.ClientSize = new System.Drawing.Size(891, 537);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnEliminarProduc);
             this.Controls.Add(this.btnAgregar);

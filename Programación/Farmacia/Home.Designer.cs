@@ -30,9 +30,14 @@ namespace Farmacia
         private void InitializeComponent()
         {
             this.Barra_titulo = new System.Windows.Forms.Panel();
+            this.BTNrestaurar = new System.Windows.Forms.PictureBox();
+            this.BTNmini = new System.Windows.Forms.PictureBox();
+            this.BTNmaximizar = new System.Windows.Forms.PictureBox();
+            this.BTNcerrar = new System.Windows.Forms.PictureBox();
             this.panelcontenedor = new System.Windows.Forms.Panel();
             this.panelCont = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
@@ -54,45 +59,40 @@ namespace Farmacia
             this.BTNusos = new System.Windows.Forms.Button();
             this.panel20 = new System.Windows.Forms.Panel();
             this.BTNcatalogo = new System.Windows.Forms.Button();
+            this.BTNsalir = new System.Windows.Forms.PictureBox();
             this.panel13 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.BTNsalir = new System.Windows.Forms.PictureBox();
             this.BTNinventario = new System.Windows.Forms.Button();
+            this.panel7 = new System.Windows.Forms.Panel();
             this.BTNreportes = new System.Windows.Forms.Button();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.BTNproveedores = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.BTNempleados = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.BTNcompras = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.BTNclientes = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.BTNventas = new System.Windows.Forms.Button();
             this.BTNproductos = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.BTNrestaurar = new System.Windows.Forms.PictureBox();
-            this.BTNmini = new System.Windows.Forms.PictureBox();
-            this.BTNmaximizar = new System.Windows.Forms.PictureBox();
-            this.BTNcerrar = new System.Windows.Forms.PictureBox();
             this.Barra_titulo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BTNrestaurar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BTNmini)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BTNmaximizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BTNcerrar)).BeginInit();
             this.panelcontenedor.SuspendLayout();
             this.panelCont.SuspendLayout();
             this.panel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             this.menuvertical.SuspendLayout();
             this.SUBMENUreportes.SuspendLayout();
             this.panelempleados.SuspendLayout();
             this.panelproductos.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BTNsalir)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BTNrestaurar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BTNmini)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BTNmaximizar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BTNcerrar)).BeginInit();
             this.SuspendLayout();
             // 
             // Barra_titulo
@@ -105,18 +105,71 @@ namespace Farmacia
             this.Barra_titulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.Barra_titulo.Location = new System.Drawing.Point(0, 0);
             this.Barra_titulo.Name = "Barra_titulo";
-            this.Barra_titulo.Size = new System.Drawing.Size(1028, 35);
+            this.Barra_titulo.Size = new System.Drawing.Size(1300, 35);
             this.Barra_titulo.TabIndex = 1;
             this.Barra_titulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Barra_titulo_MouseDown);
+            // 
+            // BTNrestaurar
+            // 
+            this.BTNrestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BTNrestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTNrestaurar.Image = global::Farmacia.Properties.Resources.res1;
+            this.BTNrestaurar.Location = new System.Drawing.Point(1232, 4);
+            this.BTNrestaurar.Name = "BTNrestaurar";
+            this.BTNrestaurar.Size = new System.Drawing.Size(25, 25);
+            this.BTNrestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.BTNrestaurar.TabIndex = 3;
+            this.BTNrestaurar.TabStop = false;
+            this.BTNrestaurar.Visible = false;
+            this.BTNrestaurar.Click += new System.EventHandler(this.BTNrestaurar_Click_1);
+            // 
+            // BTNmini
+            // 
+            this.BTNmini.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BTNmini.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTNmini.Image = global::Farmacia.Properties.Resources.minimazar1;
+            this.BTNmini.Location = new System.Drawing.Point(1201, 4);
+            this.BTNmini.Name = "BTNmini";
+            this.BTNmini.Size = new System.Drawing.Size(25, 25);
+            this.BTNmini.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.BTNmini.TabIndex = 2;
+            this.BTNmini.TabStop = false;
+            this.BTNmini.Click += new System.EventHandler(this.BTNmini_Click);
+            // 
+            // BTNmaximizar
+            // 
+            this.BTNmaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BTNmaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTNmaximizar.Image = global::Farmacia.Properties.Resources.maxi1;
+            this.BTNmaximizar.Location = new System.Drawing.Point(1232, 4);
+            this.BTNmaximizar.Name = "BTNmaximizar";
+            this.BTNmaximizar.Size = new System.Drawing.Size(25, 25);
+            this.BTNmaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.BTNmaximizar.TabIndex = 1;
+            this.BTNmaximizar.TabStop = false;
+            this.BTNmaximizar.Click += new System.EventHandler(this.BTNmaximizar_Click_1);
+            // 
+            // BTNcerrar
+            // 
+            this.BTNcerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BTNcerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTNcerrar.Image = global::Farmacia.Properties.Resources.cerrar1;
+            this.BTNcerrar.Location = new System.Drawing.Point(1263, 4);
+            this.BTNcerrar.Name = "BTNcerrar";
+            this.BTNcerrar.Size = new System.Drawing.Size(25, 25);
+            this.BTNcerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.BTNcerrar.TabIndex = 0;
+            this.BTNcerrar.TabStop = false;
+            this.BTNcerrar.Click += new System.EventHandler(this.BTNcerrar_Click_1);
             // 
             // panelcontenedor
             // 
             this.panelcontenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.panelcontenedor.Controls.Add(this.panelCont);
             this.panelcontenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelcontenedor.Location = new System.Drawing.Point(220, 35);
+            this.panelcontenedor.Location = new System.Drawing.Point(224, 35);
             this.panelcontenedor.Name = "panelcontenedor";
-            this.panelcontenedor.Size = new System.Drawing.Size(808, 592);
+            this.panelcontenedor.Size = new System.Drawing.Size(1076, 615);
             this.panelcontenedor.TabIndex = 3;
             this.panelcontenedor.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelcontenedor_MouseDown);
             // 
@@ -129,7 +182,7 @@ namespace Farmacia
             this.panelCont.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelCont.Location = new System.Drawing.Point(0, 0);
             this.panelCont.Name = "panelCont";
-            this.panelCont.Size = new System.Drawing.Size(808, 592);
+            this.panelCont.Size = new System.Drawing.Size(1076, 615);
             this.panelCont.TabIndex = 6;
             // 
             // panel14
@@ -140,8 +193,18 @@ namespace Farmacia
             this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel14.Location = new System.Drawing.Point(0, 0);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(808, 592);
+            this.panel14.Size = new System.Drawing.Size(1076, 615);
             this.panel14.TabIndex = 9;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Farmacia.Properties.Resources.Farmacia1;
+            this.pictureBox2.Location = new System.Drawing.Point(198, 114);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(448, 335);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // panel1
             // 
@@ -231,7 +294,7 @@ namespace Farmacia
             this.menuvertical.Dock = System.Windows.Forms.DockStyle.Left;
             this.menuvertical.Location = new System.Drawing.Point(0, 35);
             this.menuvertical.Name = "menuvertical";
-            this.menuvertical.Size = new System.Drawing.Size(220, 592);
+            this.menuvertical.Size = new System.Drawing.Size(224, 615);
             this.menuvertical.TabIndex = 2;
             // 
             // SUBMENUreportes
@@ -298,9 +361,9 @@ namespace Farmacia
             this.BTNperfiles.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNperfiles.ForeColor = System.Drawing.Color.White;
             this.BTNperfiles.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTNperfiles.Location = new System.Drawing.Point(3, 34);
+            this.BTNperfiles.Location = new System.Drawing.Point(11, 34);
             this.BTNperfiles.Name = "BTNperfiles";
-            this.BTNperfiles.Size = new System.Drawing.Size(176, 28);
+            this.BTNperfiles.Size = new System.Drawing.Size(172, 28);
             this.BTNperfiles.TabIndex = 9;
             this.BTNperfiles.Text = "Perfiles";
             this.BTNperfiles.UseVisualStyleBackColor = false;
@@ -323,9 +386,9 @@ namespace Farmacia
             this.BTNusuarios.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNusuarios.ForeColor = System.Drawing.Color.White;
             this.BTNusuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTNusuarios.Location = new System.Drawing.Point(3, 0);
+            this.BTNusuarios.Location = new System.Drawing.Point(11, 0);
             this.BTNusuarios.Name = "BTNusuarios";
-            this.BTNusuarios.Size = new System.Drawing.Size(176, 28);
+            this.BTNusuarios.Size = new System.Drawing.Size(172, 28);
             this.BTNusuarios.TabIndex = 7;
             this.BTNusuarios.Text = "Usuarios";
             this.BTNusuarios.UseVisualStyleBackColor = false;
@@ -364,7 +427,7 @@ namespace Farmacia
             this.BTNlab.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNlab.Location = new System.Drawing.Point(3, 68);
             this.BTNlab.Name = "BTNlab";
-            this.BTNlab.Size = new System.Drawing.Size(176, 28);
+            this.BTNlab.Size = new System.Drawing.Size(180, 28);
             this.BTNlab.TabIndex = 11;
             this.BTNlab.Text = "Laboratorio";
             this.BTNlab.UseVisualStyleBackColor = false;
@@ -389,7 +452,7 @@ namespace Farmacia
             this.BTNusos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNusos.Location = new System.Drawing.Point(3, 34);
             this.BTNusos.Name = "BTNusos";
-            this.BTNusos.Size = new System.Drawing.Size(176, 28);
+            this.BTNusos.Size = new System.Drawing.Size(180, 28);
             this.BTNusos.TabIndex = 9;
             this.BTNusos.Text = "Usos";
             this.BTNusos.UseVisualStyleBackColor = false;
@@ -420,6 +483,17 @@ namespace Farmacia
             this.BTNcatalogo.UseVisualStyleBackColor = false;
             this.BTNcatalogo.Click += new System.EventHandler(this.BTNcatalogo_Click);
             // 
+            // BTNsalir
+            // 
+            this.BTNsalir.Image = global::Farmacia.Properties.Resources.salir1;
+            this.BTNsalir.Location = new System.Drawing.Point(1, 533);
+            this.BTNsalir.Name = "BTNsalir";
+            this.BTNsalir.Size = new System.Drawing.Size(45, 56);
+            this.BTNsalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.BTNsalir.TabIndex = 0;
+            this.BTNsalir.TabStop = false;
+            this.BTNsalir.Click += new System.EventHandler(this.BTNsalir_Click);
+            // 
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
@@ -435,75 +509,6 @@ namespace Farmacia
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(5, 32);
             this.panel8.TabIndex = 3;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel7.Location = new System.Drawing.Point(1, 308);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(5, 32);
-            this.panel7.TabIndex = 3;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel6.Location = new System.Drawing.Point(1, 80);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(5, 32);
-            this.panel6.TabIndex = 3;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel5.Location = new System.Drawing.Point(1, 232);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(5, 32);
-            this.panel5.TabIndex = 3;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel4.Location = new System.Drawing.Point(1, 156);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(5, 32);
-            this.panel4.TabIndex = 3;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel3.Location = new System.Drawing.Point(1, 194);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(5, 32);
-            this.panel3.TabIndex = 3;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel2.Location = new System.Drawing.Point(1, 118);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(5, 32);
-            this.panel2.TabIndex = 1;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Farmacia.Properties.Resources.Farmacia1;
-            this.pictureBox2.Location = new System.Drawing.Point(198, 114);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(448, 335);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // BTNsalir
-            // 
-            this.BTNsalir.Image = global::Farmacia.Properties.Resources.salir1;
-            this.BTNsalir.Location = new System.Drawing.Point(1, 533);
-            this.BTNsalir.Name = "BTNsalir";
-            this.BTNsalir.Size = new System.Drawing.Size(45, 56);
-            this.BTNsalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.BTNsalir.TabIndex = 0;
-            this.BTNsalir.TabStop = false;
-            this.BTNsalir.Click += new System.EventHandler(this.BTNsalir_Click);
             // 
             // BTNinventario
             // 
@@ -523,6 +528,14 @@ namespace Farmacia
             this.BTNinventario.UseVisualStyleBackColor = false;
             this.BTNinventario.Click += new System.EventHandler(this.BTNinventario_Click);
             // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel7.Location = new System.Drawing.Point(1, 308);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(5, 32);
+            this.panel7.TabIndex = 3;
+            // 
             // BTNreportes
             // 
             this.BTNreportes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
@@ -540,6 +553,14 @@ namespace Farmacia
             this.BTNreportes.Text = "Reportes";
             this.BTNreportes.UseVisualStyleBackColor = false;
             this.BTNreportes.Click += new System.EventHandler(this.BTNreportes_Click);
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel6.Location = new System.Drawing.Point(1, 80);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(5, 32);
+            this.panel6.TabIndex = 3;
             // 
             // BTNproveedores
             // 
@@ -559,6 +580,14 @@ namespace Farmacia
             this.BTNproveedores.UseVisualStyleBackColor = false;
             this.BTNproveedores.Click += new System.EventHandler(this.button7_Click);
             // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel5.Location = new System.Drawing.Point(1, 232);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(5, 32);
+            this.panel5.TabIndex = 3;
+            // 
             // BTNempleados
             // 
             this.BTNempleados.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
@@ -569,13 +598,21 @@ namespace Farmacia
             this.BTNempleados.ForeColor = System.Drawing.Color.White;
             this.BTNempleados.Image = global::Farmacia.Properties.Resources.empleados1;
             this.BTNempleados.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTNempleados.Location = new System.Drawing.Point(4, 80);
+            this.BTNempleados.Location = new System.Drawing.Point(0, 80);
             this.BTNempleados.Name = "BTNempleados";
-            this.BTNempleados.Size = new System.Drawing.Size(216, 32);
+            this.BTNempleados.Size = new System.Drawing.Size(224, 32);
             this.BTNempleados.TabIndex = 4;
             this.BTNempleados.Text = "Empleados";
             this.BTNempleados.UseVisualStyleBackColor = false;
             this.BTNempleados.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel4.Location = new System.Drawing.Point(1, 156);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(5, 32);
+            this.panel4.TabIndex = 3;
             // 
             // BTNcompras
             // 
@@ -595,6 +632,14 @@ namespace Farmacia
             this.BTNcompras.UseVisualStyleBackColor = false;
             this.BTNcompras.Click += new System.EventHandler(this.BTNcompras_Click);
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel3.Location = new System.Drawing.Point(1, 194);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(5, 32);
+            this.panel3.TabIndex = 3;
+            // 
             // BTNclientes
             // 
             this.BTNclientes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
@@ -612,6 +657,14 @@ namespace Farmacia
             this.BTNclientes.Text = "Clientes";
             this.BTNclientes.UseVisualStyleBackColor = false;
             this.BTNclientes.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel2.Location = new System.Drawing.Point(1, 118);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(5, 32);
+            this.panel2.TabIndex = 1;
             // 
             // BTNventas
             // 
@@ -641,9 +694,9 @@ namespace Farmacia
             this.BTNproductos.ForeColor = System.Drawing.Color.White;
             this.BTNproductos.Image = global::Farmacia.Properties.Resources.producto1;
             this.BTNproductos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTNproductos.Location = new System.Drawing.Point(4, 118);
+            this.BTNproductos.Location = new System.Drawing.Point(0, 118);
             this.BTNproductos.Name = "BTNproductos";
-            this.BTNproductos.Size = new System.Drawing.Size(216, 32);
+            this.BTNproductos.Size = new System.Drawing.Size(224, 32);
             this.BTNproductos.TabIndex = 2;
             this.BTNproductos.Text = "Productos";
             this.BTNproductos.UseVisualStyleBackColor = false;
@@ -654,70 +707,17 @@ namespace Farmacia
             this.pictureBox1.Image = global::Farmacia.Properties.Resources.Farmacia;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(220, 85);
+            this.pictureBox1.Size = new System.Drawing.Size(224, 85);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // BTNrestaurar
-            // 
-            this.BTNrestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BTNrestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BTNrestaurar.Image = global::Farmacia.Properties.Resources.res1;
-            this.BTNrestaurar.Location = new System.Drawing.Point(960, 4);
-            this.BTNrestaurar.Name = "BTNrestaurar";
-            this.BTNrestaurar.Size = new System.Drawing.Size(25, 25);
-            this.BTNrestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.BTNrestaurar.TabIndex = 3;
-            this.BTNrestaurar.TabStop = false;
-            this.BTNrestaurar.Visible = false;
-            this.BTNrestaurar.Click += new System.EventHandler(this.BTNrestaurar_Click_1);
-            // 
-            // BTNmini
-            // 
-            this.BTNmini.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BTNmini.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BTNmini.Image = global::Farmacia.Properties.Resources.minimazar1;
-            this.BTNmini.Location = new System.Drawing.Point(929, 4);
-            this.BTNmini.Name = "BTNmini";
-            this.BTNmini.Size = new System.Drawing.Size(25, 25);
-            this.BTNmini.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.BTNmini.TabIndex = 2;
-            this.BTNmini.TabStop = false;
-            this.BTNmini.Click += new System.EventHandler(this.BTNmini_Click);
-            // 
-            // BTNmaximizar
-            // 
-            this.BTNmaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BTNmaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BTNmaximizar.Image = global::Farmacia.Properties.Resources.maxi1;
-            this.BTNmaximizar.Location = new System.Drawing.Point(960, 4);
-            this.BTNmaximizar.Name = "BTNmaximizar";
-            this.BTNmaximizar.Size = new System.Drawing.Size(25, 25);
-            this.BTNmaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.BTNmaximizar.TabIndex = 1;
-            this.BTNmaximizar.TabStop = false;
-            this.BTNmaximizar.Click += new System.EventHandler(this.BTNmaximizar_Click_1);
-            // 
-            // BTNcerrar
-            // 
-            this.BTNcerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BTNcerrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BTNcerrar.Image = global::Farmacia.Properties.Resources.cerrar1;
-            this.BTNcerrar.Location = new System.Drawing.Point(991, 4);
-            this.BTNcerrar.Name = "BTNcerrar";
-            this.BTNcerrar.Size = new System.Drawing.Size(25, 25);
-            this.BTNcerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.BTNcerrar.TabIndex = 0;
-            this.BTNcerrar.TabStop = false;
-            this.BTNcerrar.Click += new System.EventHandler(this.BTNcerrar_Click_1);
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1028, 627);
+            this.ClientSize = new System.Drawing.Size(1300, 650);
             this.Controls.Add(this.panelcontenedor);
             this.Controls.Add(this.menuvertical);
             this.Controls.Add(this.Barra_titulo);
@@ -726,21 +726,21 @@ namespace Farmacia
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
             this.Barra_titulo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.BTNrestaurar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BTNmini)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BTNmaximizar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BTNcerrar)).EndInit();
             this.panelcontenedor.ResumeLayout(false);
             this.panelCont.ResumeLayout(false);
             this.panel14.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.menuvertical.ResumeLayout(false);
             this.SUBMENUreportes.ResumeLayout(false);
             this.panelempleados.ResumeLayout(false);
             this.panelproductos.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BTNsalir)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BTNrestaurar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BTNmini)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BTNmaximizar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BTNcerrar)).EndInit();
             this.ResumeLayout(false);
 
         }
