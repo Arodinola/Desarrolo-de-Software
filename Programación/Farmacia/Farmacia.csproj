@@ -58,6 +58,36 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_CategoriaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_CategoriaProducto.Designer.cs">
+      <DependentUpon>Frm_CategoriaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Laboratorios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Laboratorios.Designer.cs">
+      <DependentUpon>Frm_Laboratorios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Producto.Designer.cs">
+      <DependentUpon>Frm_Producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Usos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Usos.Designer.cs">
+      <DependentUpon>Frm_Usos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Ventas.Designer.cs">
+      <DependentUpon>Frm_Ventas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +125,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_CategoriaProducto.resx">
+      <DependentUpon>Frm_CategoriaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Laboratorios.resx">
+      <DependentUpon>Frm_Laboratorios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Producto.resx">
+      <DependentUpon>Frm_Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Usos.resx">
+      <DependentUpon>Frm_Usos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Ventas.resx">
+      <DependentUpon>Frm_Ventas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -253,6 +298,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Farmacia1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_stop_exit_1583 %281%291.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash-can_1153121.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer_783491.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_779281.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_upgrade_recyclearrows_arrow_azul_124261.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder-trash-4341321_1205571.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xmag_search_find_export_locate_5984 %281%29.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
