@@ -39,3 +39,5 @@ D:\Documentos\GitHub2\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Far
 D:\Documentos\GitHub2\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Proveedores.resources
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Clientes.resources
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Proveedores.resources
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Usuarios.resources
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Perfiles.resources

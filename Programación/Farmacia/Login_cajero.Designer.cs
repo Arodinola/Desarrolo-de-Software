@@ -30,12 +30,6 @@ namespace Farmacia
         private void InitializeComponent()
         {
             this.Barra_titulo = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnrestaurar = new System.Windows.Forms.PictureBox();
-            this.btnminimizar = new System.Windows.Forms.PictureBox();
-            this.btnMaximizar = new System.Windows.Forms.PictureBox();
-            this.btncerrar = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtuser = new System.Windows.Forms.TextBox();
@@ -43,6 +37,12 @@ namespace Farmacia
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnlogin = new System.Windows.Forms.Button();
             this.linkpass = new System.Windows.Forms.LinkLabel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnrestaurar = new System.Windows.Forms.PictureBox();
+            this.btnminimizar = new System.Windows.Forms.PictureBox();
+            this.btnMaximizar = new System.Windows.Forms.PictureBox();
+            this.btncerrar = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Barra_titulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -70,6 +70,90 @@ namespace Farmacia
             this.Barra_titulo.TabIndex = 2;
             this.Barra_titulo.Paint += new System.Windows.Forms.PaintEventHandler(this.Barra_titulo_Paint);
             this.Barra_titulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Barra_titulo_MouseDown);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(423, 103);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(118, 38);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "LOGIN";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Location = new System.Drawing.Point(259, 190);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(488, 1);
+            this.panel1.TabIndex = 8;
+            // 
+            // txtuser
+            // 
+            this.txtuser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.txtuser.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtuser.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtuser.ForeColor = System.Drawing.Color.White;
+            this.txtuser.Location = new System.Drawing.Point(259, 164);
+            this.txtuser.Name = "txtuser";
+            this.txtuser.Size = new System.Drawing.Size(488, 24);
+            this.txtuser.TabIndex = 1;
+            this.txtuser.Text = "USUARIO";
+            this.txtuser.TextChanged += new System.EventHandler(this.txtuser_TextChanged);
+            this.txtuser.Enter += new System.EventHandler(this.txtuser_Enter);
+            this.txtuser.Leave += new System.EventHandler(this.txtuser_Leave);
+            // 
+            // txtpass
+            // 
+            this.txtpass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.txtpass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtpass.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtpass.ForeColor = System.Drawing.Color.White;
+            this.txtpass.Location = new System.Drawing.Point(259, 235);
+            this.txtpass.Name = "txtpass";
+            this.txtpass.Size = new System.Drawing.Size(488, 24);
+            this.txtpass.TabIndex = 2;
+            this.txtpass.Text = "CONTRASEÑA";
+            this.txtpass.Enter += new System.EventHandler(this.txtpass_Enter);
+            this.txtpass.Leave += new System.EventHandler(this.txtpass_Leave);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Location = new System.Drawing.Point(259, 261);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(488, 1);
+            this.panel2.TabIndex = 10;
+            // 
+            // btnlogin
+            // 
+            this.btnlogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnlogin.FlatAppearance.BorderSize = 0;
+            this.btnlogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnlogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnlogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnlogin.ForeColor = System.Drawing.Color.White;
+            this.btnlogin.Location = new System.Drawing.Point(280, 292);
+            this.btnlogin.Name = "btnlogin";
+            this.btnlogin.Size = new System.Drawing.Size(408, 40);
+            this.btnlogin.TabIndex = 3;
+            this.btnlogin.Text = "ACCEDER";
+            this.btnlogin.UseVisualStyleBackColor = false;
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
+            // 
+            // linkpass
+            // 
+            this.linkpass.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.linkpass.AutoSize = true;
+            this.linkpass.LinkColor = System.Drawing.Color.White;
+            this.linkpass.Location = new System.Drawing.Point(427, 359);
+            this.linkpass.Name = "linkpass";
+            this.linkpass.Size = new System.Drawing.Size(125, 13);
+            this.linkpass.TabIndex = 0;
+            this.linkpass.TabStop = true;
+            this.linkpass.Text = "Olvidaste tu contraseña?";
             // 
             // pictureBox3
             // 
@@ -149,89 +233,6 @@ namespace Farmacia
             this.btncerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btncerrar.TabIndex = 4;
             this.btncerrar.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(423, 103);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(118, 38);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "LOGIN";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(259, 190);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(488, 1);
-            this.panel1.TabIndex = 8;
-            // 
-            // txtuser
-            // 
-            this.txtuser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.txtuser.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtuser.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtuser.ForeColor = System.Drawing.Color.White;
-            this.txtuser.Location = new System.Drawing.Point(259, 164);
-            this.txtuser.Name = "txtuser";
-            this.txtuser.Size = new System.Drawing.Size(488, 24);
-            this.txtuser.TabIndex = 1;
-            this.txtuser.Text = "USUARIO";
-            this.txtuser.Enter += new System.EventHandler(this.txtuser_Enter);
-            this.txtuser.Leave += new System.EventHandler(this.txtuser_Leave);
-            // 
-            // txtpass
-            // 
-            this.txtpass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.txtpass.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtpass.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpass.ForeColor = System.Drawing.Color.White;
-            this.txtpass.Location = new System.Drawing.Point(259, 235);
-            this.txtpass.Name = "txtpass";
-            this.txtpass.Size = new System.Drawing.Size(488, 24);
-            this.txtpass.TabIndex = 2;
-            this.txtpass.Text = "CONTRASEÑA";
-            this.txtpass.Enter += new System.EventHandler(this.txtpass_Enter);
-            this.txtpass.Leave += new System.EventHandler(this.txtpass_Leave);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Location = new System.Drawing.Point(259, 261);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(488, 1);
-            this.panel2.TabIndex = 10;
-            // 
-            // btnlogin
-            // 
-            this.btnlogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnlogin.FlatAppearance.BorderSize = 0;
-            this.btnlogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnlogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnlogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnlogin.ForeColor = System.Drawing.Color.White;
-            this.btnlogin.Location = new System.Drawing.Point(280, 292);
-            this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(408, 40);
-            this.btnlogin.TabIndex = 3;
-            this.btnlogin.Text = "ACCEDER";
-            this.btnlogin.UseVisualStyleBackColor = false;
-            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
-            // 
-            // linkpass
-            // 
-            this.linkpass.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.linkpass.AutoSize = true;
-            this.linkpass.LinkColor = System.Drawing.Color.White;
-            this.linkpass.Location = new System.Drawing.Point(427, 359);
-            this.linkpass.Name = "linkpass";
-            this.linkpass.Size = new System.Drawing.Size(125, 13);
-            this.linkpass.TabIndex = 0;
-            this.linkpass.TabStop = true;
-            this.linkpass.Text = "Olvidaste tu contraseña?";
             // 
             // pictureBox1
             // 
