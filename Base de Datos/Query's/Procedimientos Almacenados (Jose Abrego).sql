@@ -1,0 +1,4 @@
+
+--PROCEDIMIENTOS ALMACENADOS PARA PRODUCTOS
+
+ALTER PROCEDURE ConsultaProductoPorNombre@Nombre Varchar(30)ASSET NOCOUNT ON;SELECT [IDProducto] 'Id', [NombreProducto]'Nombre', [Precio] 'Precio', [CantidadProducto] 'Cantidad', [FKIdLaboratorio] 'Id_Laboratorio', [FkIdProveedor] 'Id_Proveedor', [FKIdCategoria] 'Id_Categoria', [FKIdUsos] 'Id_Usos' From Productos PINNER JOIN CategoriaProducto CPON CP.IdCategoriaProducto = P.FKIdCategoriaINNER JOIN Usos UON U.PKIdUsos = P.FKIdUsosINNER JOIN Labororios LON L.IdLaboratorio = P.FKIdLaboratorioINNER JOIN Proveedores PRON PR.PKIdProveedor = P.FkIdProveedorDBCC CHECKIDENT ('Productos', RESEED, 1)SELECT * FROM ProductosSELECT*FROM LabororiosSELECT*FROM UsosSELECT*FROM CategoriaProductoEXEC ConsultaClientePorNombre 'jo' WHERE NombreCliente LIKE CONCAT (@Nombre, '%%');
