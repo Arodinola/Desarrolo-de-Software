@@ -41,3 +41,8 @@ C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Proveedores.resources
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Usuarios.resources
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Perfiles.resources
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_CategoriaProducto.resources
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Laboratorios.resources
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Producto.resources
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Usos.resources
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Ventas.resources
