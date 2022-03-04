@@ -28,7 +28,7 @@ AS
 SET NOCOUNT ON;
 
 SELECT PKIDcliente 'Id',[IdentidadCliente]'Identidad',[NombreCliente]'Nombre',[ApellidoCliente] 'Apellido',[TelefonoCliente] 'Telefono',[CorreoCliente] 'Correo',
-[DireccionCliente] 'Dirección'  From Clientes WHERE PKIDcliente = @Codigo
+[DireccionCliente] 'Dirección'  From Clientes WHERE PKIDcliente = @Codigo AND EstadoCliente !=0
 
 ALTER PROCEDURE ConsultaClientePorNombre 
 @Nombre nchar(30)
@@ -36,10 +36,10 @@ AS
 SET NOCOUNT ON;
 
 SELECT PKIDcliente 'Id',[IdentidadCliente]'Identidad',[NombreCliente]'Nombre',[ApellidoCliente] 'Apellido',[TelefonoCliente] 'Telefono',[CorreoCliente] 'Correo',
-[DireccionCliente] 'Dirección'  From Clientes WHERE NombreCliente LIKE  CONCAT('%',@Nombre,'%')
+[DireccionCliente] 'Dirección'  From Clientes WHERE NombreCliente LIKE  CONCAT(@Nombre,'%%') AND EstadoCliente !=0
 
 
-CREATE PROCEDURE AgregarCliente
+ALTER PROCEDURE AgregarCliente
 (@Identidad varchar (15),
 @Nombre varchar (30),
 @Apellido varchar (30),
@@ -49,6 +49,11 @@ CREATE PROCEDURE AgregarCliente
 )
 AS
 SET NOCOUNT ON;
+
+if exists (select IdentidadCliente  from Clientes where IdentidadCliente=@Identidad and EstadoCliente = 1)raiserror('Error!! Este Producto ya existe, utiliza otro por favor', 16, 1)
+else if exists (select IdentidadCliente from Clientes where IdentidadCliente=@Identidad and EstadoCliente = 0) UPDATE Clientes SET EstadoCliente = 1
+ WHERE IdentidadCliente = @Identidad
+ELSE
 
 INSERT INTO [dbo].[Clientes]
            ([IdentidadCliente]
@@ -108,7 +113,8 @@ Create PROCEDURE ConsultaGeneralProveedor
 	SET NOCOUNT ON;
 
 	SELECT        PKIdProveedor [Proveedor], NombreProveedor [Nombre], TelefonoProveedor [Telefono], CorreoProveedor [Correo Electrónico], DireccionProveedor [Dirección], RTNProveedor[RTN]
-FROM            Proveedores
+	FROM            Proveedores
+	WHERE EstadoProveedores != 0
 
 
 CREATE PROCEDURE ConsultaProveedorPorCodigo
@@ -118,16 +124,16 @@ SET NOCOUNT ON;
 
 SELECT        PKIdProveedor [Proveedor], NombreProveedor [Nombre], TelefonoProveedor [Telefono], CorreoProveedor [Correo Electrónico], DireccionProveedor [Dirección], RTNProveedor[RTN]
 FROM            Proveedores
-WHERE PKIdProveedor = @Codigo
+WHERE PKIdProveedor = @Codigo AND EstadoProveedores != 0
 
 ALTER PROCEDURE ConsultaProveedorPorNombre 
-@Nombre nchar(30)
+@Nombre varchar(30)
 AS
 SET NOCOUNT ON;
 
 SELECT        PKIdProveedor [Proveedor], NombreProveedor [Nombre], TelefonoProveedor [Telefono], CorreoProveedor [Correo Electrónico], DireccionProveedor [Dirección], RTNProveedor[RTN]
 FROM            Proveedores
-WHERE NombreProveedor  LIKE  CONCAT('%',@Nombre,'%')
+WHERE NombreProveedor  LIKE  CONCAT(@Nombre,'%%') AND EstadoProveedores != 0
 
 
 CREATE PROCEDURE AgregarProveedor
@@ -139,6 +145,11 @@ CREATE PROCEDURE AgregarProveedor
 )
 AS
 SET NOCOUNT ON;
+if exists (select NombreProveedor  from Proveedores where NombreProveedor=@Nombre and EstadoProveedores = 1)raiserror('Error!! Este Producto ya existe, utiliza otro por favor', 16, 1)
+else if exists (select NombreProveedor from Proveedores where NombreProveedor=@Nombre and EstadoProveedores = 0) UPDATE Proveedores SET EstadoProveedores = 1
+ WHERE NombreProveedor = @Nombre
+ELSE
+
 
 INSERT INTO Proveedores
            ([NombreProveedor]
@@ -199,6 +210,7 @@ Create PROCEDURE ConsultaGeneralPerfiles
 
 SELECT        PKIdPerfiles [Id], PerfilNombre[Perfil]
 FROM            Perfiles
+WHERE EstadoPerfil != 0
 go
 
 
@@ -209,7 +221,7 @@ SET NOCOUNT ON;
 
 SELECT        PKIdPerfiles [Id], PerfilNombre[Perfil]
 FROM            Perfiles
-WHERE PKIdPerfiles = @Codigo
+WHERE PKIdPerfiles = @Codigo AND EstadoPerfil != 0
 
 CREATE PROCEDURE ConsultaPerfilesPorNombre 
 @Nombre nchar(30)
@@ -218,7 +230,7 @@ SET NOCOUNT ON;
 
 SELECT        PKIdPerfiles [Id], PerfilNombre[Perfil]
 FROM            Perfiles
-WHERE PerfilNombre  LIKE  CONCAT('%',@Nombre,'%')
+WHERE PerfilNombre  LIKE  CONCAT('%',@Nombre,'%') AND EstadoPerfil != 0
 
 
 CREATE PROCEDURE AgregarPerfiles
@@ -226,6 +238,9 @@ CREATE PROCEDURE AgregarPerfiles
 )
 AS
 SET NOCOUNT ON;
+if exists (select PerfilNombre  from Perfiles where PerfilNombre=@Nombre and EstadoPerfil = 1)raiserror('Error!! Este Producto ya existe, utiliza otro por favor', 16, 1)
+else if exists (select PerfilNombre from Perfiles where PerfilNombre=@Nombre and EstadoPerfil = 0) UPDATE Perfiles SET EstadoPerfil = 1
+ WHERE PerfilNombre = @Nombre
 
 INSERT INTO Perfiles
            ([PerfilNombre])
