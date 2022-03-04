@@ -58,6 +58,24 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPresentacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPresentacion.Designer.cs">
+      <DependentUpon>FormPresentacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUsuarios1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUsuarios1.Designer.cs">
+      <DependentUpon>FormUsuarios1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVentas1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVentas1.Designer.cs">
+      <DependentUpon>FormVentas1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_CategoriaProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +143,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPresentacion.resx">
+      <DependentUpon>FormPresentacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUsuarios1.resx">
+      <DependentUpon>FormUsuarios1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVentas1.resx">
+      <DependentUpon>FormVentas1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_CategoriaProducto.resx">
       <DependentUpon>Frm_CategoriaProducto.cs</DependentUpon>
@@ -319,6 +346,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\xmag_search_find_export_locate_5984 %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farmacia Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\o.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

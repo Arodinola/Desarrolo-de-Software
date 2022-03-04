@@ -233,7 +233,7 @@ namespace Farmacia
 
         private void BTNusuarios_Click(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new Usuarios());
+            AbrirFormEnPanel(new FormUsuarios1());
         }
         private void Abrirusuarios(object FUsuarios)
         {
@@ -307,22 +307,22 @@ namespace Farmacia
 
         private void BTNcatalogo_Click(object sender, EventArgs e)
         {
-
+            AbrirFormEnPanel(new Frm_CategoriaProducto());
         }
 
         private void BTNusos_Click(object sender, EventArgs e)
         {
-
+            AbrirFormEnPanel(new Frm_Usos());
         }
 
         private void BTNlab_Click(object sender, EventArgs e)
         {
-
+            AbrirFormEnPanel(new Frm_Laboratorios());
         }
 
         private void BTNventas_Click(object sender, EventArgs e)
         {
-
+            AbrirFormEnPanel(new FormVentas1());
         }
 
         private void BTNcompras_Click(object sender, EventArgs e)
@@ -332,7 +332,7 @@ namespace Farmacia
 
         private void BTNinventario_Click(object sender, EventArgs e)
         {
-
+            AbrirFormEnPanel(new Frm_Producto());
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
