@@ -53,3 +53,6 @@ D:\Documentos\GitHub2\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Far
 D:\Documentos\GitHub2\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Ventas.resources
 D:\Documentos\GitHub2\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Perfiles.resources
 D:\Documentos\GitHub2\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Usuarios.resources
+D:\Documentos\GitHub2\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.FormUsuarios1.resources
+D:\Documentos\GitHub2\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.FormVentas1.resources
+D:\Documentos\GitHub2\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.FormPresentacion.resources

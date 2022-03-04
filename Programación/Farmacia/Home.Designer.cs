@@ -104,7 +104,7 @@ namespace Farmacia
             this.Barra_titulo.Controls.Add(this.BTNcerrar);
             this.Barra_titulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.Barra_titulo.Location = new System.Drawing.Point(0, 0);
-            this.Barra_titulo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Barra_titulo.Margin = new System.Windows.Forms.Padding(4);
             this.Barra_titulo.Name = "Barra_titulo";
             this.Barra_titulo.Size = new System.Drawing.Size(1733, 43);
             this.Barra_titulo.TabIndex = 1;
@@ -116,7 +116,7 @@ namespace Farmacia
             this.BTNrestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BTNrestaurar.Image = global::Farmacia.Properties.Resources.res1;
             this.BTNrestaurar.Location = new System.Drawing.Point(1643, 5);
-            this.BTNrestaurar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNrestaurar.Margin = new System.Windows.Forms.Padding(4);
             this.BTNrestaurar.Name = "BTNrestaurar";
             this.BTNrestaurar.Size = new System.Drawing.Size(33, 31);
             this.BTNrestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -131,7 +131,7 @@ namespace Farmacia
             this.BTNmini.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BTNmini.Image = global::Farmacia.Properties.Resources.minimazar1;
             this.BTNmini.Location = new System.Drawing.Point(1601, 5);
-            this.BTNmini.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNmini.Margin = new System.Windows.Forms.Padding(4);
             this.BTNmini.Name = "BTNmini";
             this.BTNmini.Size = new System.Drawing.Size(33, 31);
             this.BTNmini.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -145,7 +145,7 @@ namespace Farmacia
             this.BTNmaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BTNmaximizar.Image = global::Farmacia.Properties.Resources.maxi1;
             this.BTNmaximizar.Location = new System.Drawing.Point(1643, 5);
-            this.BTNmaximizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNmaximizar.Margin = new System.Windows.Forms.Padding(4);
             this.BTNmaximizar.Name = "BTNmaximizar";
             this.BTNmaximizar.Size = new System.Drawing.Size(33, 31);
             this.BTNmaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -159,7 +159,7 @@ namespace Farmacia
             this.BTNcerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BTNcerrar.Image = global::Farmacia.Properties.Resources.cerrar1;
             this.BTNcerrar.Location = new System.Drawing.Point(1684, 5);
-            this.BTNcerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNcerrar.Margin = new System.Windows.Forms.Padding(4);
             this.BTNcerrar.Name = "BTNcerrar";
             this.BTNcerrar.Size = new System.Drawing.Size(33, 31);
             this.BTNcerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -173,7 +173,7 @@ namespace Farmacia
             this.panelcontenedor.Controls.Add(this.panelCont);
             this.panelcontenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelcontenedor.Location = new System.Drawing.Point(299, 43);
-            this.panelcontenedor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelcontenedor.Margin = new System.Windows.Forms.Padding(4);
             this.panelcontenedor.Name = "panelcontenedor";
             this.panelcontenedor.Size = new System.Drawing.Size(1434, 757);
             this.panelcontenedor.TabIndex = 3;
@@ -187,7 +187,7 @@ namespace Farmacia
             this.panelCont.Controls.Add(this.panel1);
             this.panelCont.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelCont.Location = new System.Drawing.Point(0, 0);
-            this.panelCont.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelCont.Margin = new System.Windows.Forms.Padding(4);
             this.panelCont.Name = "panelCont";
             this.panelCont.Size = new System.Drawing.Size(1434, 757);
             this.panelCont.TabIndex = 6;
@@ -199,7 +199,7 @@ namespace Farmacia
             this.panel14.Controls.Add(this.pictureBox2);
             this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel14.Location = new System.Drawing.Point(0, 0);
-            this.panel14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel14.Margin = new System.Windows.Forms.Padding(4);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(1434, 757);
             this.panel14.TabIndex = 9;
@@ -208,7 +208,7 @@ namespace Farmacia
             // 
             this.pictureBox2.Image = global::Farmacia.Properties.Resources.Farmacia1;
             this.pictureBox2.Location = new System.Drawing.Point(264, 140);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(597, 412);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -222,7 +222,7 @@ namespace Farmacia
             this.panel1.Controls.Add(this.panel11);
             this.panel1.Controls.Add(this.button8);
             this.panel1.Location = new System.Drawing.Point(420, 321);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(239, 86);
             this.panel1.TabIndex = 1;
@@ -232,7 +232,7 @@ namespace Farmacia
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.panel9.Location = new System.Drawing.Point(0, 42);
-            this.panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(7, 34);
             this.panel9.TabIndex = 8;
@@ -247,7 +247,7 @@ namespace Farmacia
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(4, 42);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(235, 34);
             this.button1.TabIndex = 9;
@@ -258,7 +258,7 @@ namespace Farmacia
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.panel11.Location = new System.Drawing.Point(0, 0);
-            this.panel11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel11.Margin = new System.Windows.Forms.Padding(4);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(7, 34);
             this.panel11.TabIndex = 5;
@@ -273,7 +273,7 @@ namespace Farmacia
             this.button8.ForeColor = System.Drawing.Color.White;
             this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button8.Location = new System.Drawing.Point(4, 0);
-            this.button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button8.Margin = new System.Windows.Forms.Padding(4);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(235, 34);
             this.button8.TabIndex = 7;
@@ -307,7 +307,7 @@ namespace Farmacia
             this.menuvertical.Controls.Add(this.pictureBox1);
             this.menuvertical.Dock = System.Windows.Forms.DockStyle.Left;
             this.menuvertical.Location = new System.Drawing.Point(0, 43);
-            this.menuvertical.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.menuvertical.Margin = new System.Windows.Forms.Padding(4);
             this.menuvertical.Name = "menuvertical";
             this.menuvertical.Size = new System.Drawing.Size(299, 757);
             this.menuvertical.TabIndex = 2;
@@ -317,7 +317,7 @@ namespace Farmacia
             this.SUBMENUreportes.Controls.Add(this.panel10);
             this.SUBMENUreportes.Controls.Add(this.BTNreportV);
             this.SUBMENUreportes.Location = new System.Drawing.Point(55, 514);
-            this.SUBMENUreportes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SUBMENUreportes.Margin = new System.Windows.Forms.Padding(4);
             this.SUBMENUreportes.Name = "SUBMENUreportes";
             this.SUBMENUreportes.Size = new System.Drawing.Size(239, 46);
             this.SUBMENUreportes.TabIndex = 0;
@@ -327,7 +327,7 @@ namespace Farmacia
             // 
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.panel10.Location = new System.Drawing.Point(0, 0);
-            this.panel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(7, 34);
             this.panel10.TabIndex = 5;
@@ -342,7 +342,7 @@ namespace Farmacia
             this.BTNreportV.ForeColor = System.Drawing.Color.White;
             this.BTNreportV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNreportV.Location = new System.Drawing.Point(4, 0);
-            this.BTNreportV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNreportV.Margin = new System.Windows.Forms.Padding(4);
             this.BTNreportV.Name = "BTNreportV";
             this.BTNreportV.Size = new System.Drawing.Size(235, 34);
             this.BTNreportV.TabIndex = 7;
@@ -357,7 +357,7 @@ namespace Farmacia
             this.panelempleados.Controls.Add(this.panel17);
             this.panelempleados.Controls.Add(this.BTNusuarios);
             this.panelempleados.Location = new System.Drawing.Point(55, 188);
-            this.panelempleados.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelempleados.Margin = new System.Windows.Forms.Padding(4);
             this.panelempleados.Name = "panelempleados";
             this.panelempleados.Size = new System.Drawing.Size(239, 76);
             this.panelempleados.TabIndex = 1;
@@ -367,7 +367,7 @@ namespace Farmacia
             // 
             this.panel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.panel16.Location = new System.Drawing.Point(0, 42);
-            this.panel16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel16.Margin = new System.Windows.Forms.Padding(4);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(7, 34);
             this.panel16.TabIndex = 8;
@@ -382,7 +382,7 @@ namespace Farmacia
             this.BTNperfiles.ForeColor = System.Drawing.Color.White;
             this.BTNperfiles.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNperfiles.Location = new System.Drawing.Point(15, 42);
-            this.BTNperfiles.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNperfiles.Margin = new System.Windows.Forms.Padding(4);
             this.BTNperfiles.Name = "BTNperfiles";
             this.BTNperfiles.Size = new System.Drawing.Size(229, 34);
             this.BTNperfiles.TabIndex = 9;
@@ -394,7 +394,7 @@ namespace Farmacia
             // 
             this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.panel17.Location = new System.Drawing.Point(0, 0);
-            this.panel17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel17.Margin = new System.Windows.Forms.Padding(4);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(7, 34);
             this.panel17.TabIndex = 5;
@@ -409,7 +409,7 @@ namespace Farmacia
             this.BTNusuarios.ForeColor = System.Drawing.Color.White;
             this.BTNusuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNusuarios.Location = new System.Drawing.Point(15, 0);
-            this.BTNusuarios.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNusuarios.Margin = new System.Windows.Forms.Padding(4);
             this.BTNusuarios.Name = "BTNusuarios";
             this.BTNusuarios.Size = new System.Drawing.Size(229, 34);
             this.BTNusuarios.TabIndex = 7;
@@ -426,7 +426,7 @@ namespace Farmacia
             this.panelproductos.Controls.Add(this.panel20);
             this.panelproductos.Controls.Add(this.BTNcatalogo);
             this.panelproductos.Location = new System.Drawing.Point(55, 229);
-            this.panelproductos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelproductos.Margin = new System.Windows.Forms.Padding(4);
             this.panelproductos.Name = "panelproductos";
             this.panelproductos.Size = new System.Drawing.Size(239, 127);
             this.panelproductos.TabIndex = 9;
@@ -436,7 +436,7 @@ namespace Farmacia
             // 
             this.panel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.panel21.Location = new System.Drawing.Point(0, 84);
-            this.panel21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel21.Margin = new System.Windows.Forms.Padding(4);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(7, 34);
             this.panel21.TabIndex = 10;
@@ -451,7 +451,7 @@ namespace Farmacia
             this.BTNlab.ForeColor = System.Drawing.Color.White;
             this.BTNlab.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNlab.Location = new System.Drawing.Point(4, 84);
-            this.BTNlab.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNlab.Margin = new System.Windows.Forms.Padding(4);
             this.BTNlab.Name = "BTNlab";
             this.BTNlab.Size = new System.Drawing.Size(240, 34);
             this.BTNlab.TabIndex = 11;
@@ -463,7 +463,7 @@ namespace Farmacia
             // 
             this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.panel19.Location = new System.Drawing.Point(0, 42);
-            this.panel19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel19.Margin = new System.Windows.Forms.Padding(4);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(7, 34);
             this.panel19.TabIndex = 8;
@@ -478,7 +478,7 @@ namespace Farmacia
             this.BTNusos.ForeColor = System.Drawing.Color.White;
             this.BTNusos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNusos.Location = new System.Drawing.Point(4, 42);
-            this.BTNusos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNusos.Margin = new System.Windows.Forms.Padding(4);
             this.BTNusos.Name = "BTNusos";
             this.BTNusos.Size = new System.Drawing.Size(240, 34);
             this.BTNusos.TabIndex = 9;
@@ -490,7 +490,7 @@ namespace Farmacia
             // 
             this.panel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.panel20.Location = new System.Drawing.Point(0, 0);
-            this.panel20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel20.Margin = new System.Windows.Forms.Padding(4);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(7, 34);
             this.panel20.TabIndex = 5;
@@ -505,7 +505,7 @@ namespace Farmacia
             this.BTNcatalogo.ForeColor = System.Drawing.Color.White;
             this.BTNcatalogo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNcatalogo.Location = new System.Drawing.Point(4, 0);
-            this.BTNcatalogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNcatalogo.Margin = new System.Windows.Forms.Padding(4);
             this.BTNcatalogo.Name = "BTNcatalogo";
             this.BTNcatalogo.Size = new System.Drawing.Size(235, 34);
             this.BTNcatalogo.TabIndex = 7;
@@ -517,7 +517,7 @@ namespace Farmacia
             // 
             this.BTNsalir.Image = global::Farmacia.Properties.Resources.salir1;
             this.BTNsalir.Location = new System.Drawing.Point(1, 656);
-            this.BTNsalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNsalir.Margin = new System.Windows.Forms.Padding(4);
             this.BTNsalir.Name = "BTNsalir";
             this.BTNsalir.Size = new System.Drawing.Size(76, 76);
             this.BTNsalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -529,7 +529,7 @@ namespace Farmacia
             // 
             this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.panel13.Location = new System.Drawing.Point(1, 379);
-            this.panel13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel13.Margin = new System.Windows.Forms.Padding(4);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(7, 39);
             this.panel13.TabIndex = 7;
@@ -538,7 +538,7 @@ namespace Farmacia
             // 
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.panel8.Location = new System.Drawing.Point(1, 473);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(7, 39);
             this.panel8.TabIndex = 3;
@@ -554,7 +554,7 @@ namespace Farmacia
             this.BTNinventario.Image = global::Farmacia.Properties.Resources.producto1;
             this.BTNinventario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNinventario.Location = new System.Drawing.Point(5, 379);
-            this.BTNinventario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNinventario.Margin = new System.Windows.Forms.Padding(4);
             this.BTNinventario.Name = "BTNinventario";
             this.BTNinventario.Size = new System.Drawing.Size(288, 39);
             this.BTNinventario.TabIndex = 8;
@@ -566,7 +566,7 @@ namespace Farmacia
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.panel7.Location = new System.Drawing.Point(1, 426);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(7, 39);
             this.panel7.TabIndex = 3;
@@ -582,7 +582,7 @@ namespace Farmacia
             this.BTNreportes.Image = global::Farmacia.Properties.Resources.reportes1;
             this.BTNreportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNreportes.Location = new System.Drawing.Point(5, 473);
-            this.BTNreportes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNreportes.Margin = new System.Windows.Forms.Padding(4);
             this.BTNreportes.Name = "BTNreportes";
             this.BTNreportes.Size = new System.Drawing.Size(288, 39);
             this.BTNreportes.TabIndex = 4;
@@ -594,7 +594,7 @@ namespace Farmacia
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.panel6.Location = new System.Drawing.Point(1, 145);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(7, 39);
             this.panel6.TabIndex = 3;
@@ -610,7 +610,7 @@ namespace Farmacia
             this.BTNproveedores.Image = global::Farmacia.Properties.Resources.pagos1;
             this.BTNproveedores.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNproveedores.Location = new System.Drawing.Point(5, 426);
-            this.BTNproveedores.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNproveedores.Margin = new System.Windows.Forms.Padding(4);
             this.BTNproveedores.Name = "BTNproveedores";
             this.BTNproveedores.Size = new System.Drawing.Size(288, 39);
             this.BTNproveedores.TabIndex = 4;
@@ -622,7 +622,7 @@ namespace Farmacia
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.panel5.Location = new System.Drawing.Point(1, 332);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(7, 39);
             this.panel5.TabIndex = 3;
@@ -638,7 +638,7 @@ namespace Farmacia
             this.BTNempleados.Image = global::Farmacia.Properties.Resources.empleados1;
             this.BTNempleados.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNempleados.Location = new System.Drawing.Point(5, 145);
-            this.BTNempleados.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNempleados.Margin = new System.Windows.Forms.Padding(4);
             this.BTNempleados.Name = "BTNempleados";
             this.BTNempleados.Size = new System.Drawing.Size(299, 39);
             this.BTNempleados.TabIndex = 4;
@@ -650,7 +650,7 @@ namespace Farmacia
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.panel4.Location = new System.Drawing.Point(1, 239);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(7, 39);
             this.panel4.TabIndex = 3;
@@ -666,7 +666,7 @@ namespace Farmacia
             this.BTNcompras.Image = global::Farmacia.Properties.Resources.compras1;
             this.BTNcompras.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNcompras.Location = new System.Drawing.Point(5, 332);
-            this.BTNcompras.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNcompras.Margin = new System.Windows.Forms.Padding(4);
             this.BTNcompras.Name = "BTNcompras";
             this.BTNcompras.Size = new System.Drawing.Size(288, 39);
             this.BTNcompras.TabIndex = 4;
@@ -678,7 +678,7 @@ namespace Farmacia
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.panel3.Location = new System.Drawing.Point(1, 286);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(7, 39);
             this.panel3.TabIndex = 3;
@@ -694,7 +694,7 @@ namespace Farmacia
             this.BTNclientes.Image = global::Farmacia.Properties.Resources.clientes1;
             this.BTNclientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNclientes.Location = new System.Drawing.Point(5, 239);
-            this.BTNclientes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNclientes.Margin = new System.Windows.Forms.Padding(4);
             this.BTNclientes.Name = "BTNclientes";
             this.BTNclientes.Size = new System.Drawing.Size(288, 39);
             this.BTNclientes.TabIndex = 4;
@@ -706,7 +706,7 @@ namespace Farmacia
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.panel2.Location = new System.Drawing.Point(1, 192);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(7, 39);
             this.panel2.TabIndex = 1;
@@ -722,7 +722,7 @@ namespace Farmacia
             this.BTNventas.Image = global::Farmacia.Properties.Resources.venta1;
             this.BTNventas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNventas.Location = new System.Drawing.Point(5, 286);
-            this.BTNventas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNventas.Margin = new System.Windows.Forms.Padding(4);
             this.BTNventas.Name = "BTNventas";
             this.BTNventas.Size = new System.Drawing.Size(288, 39);
             this.BTNventas.TabIndex = 4;
@@ -741,7 +741,7 @@ namespace Farmacia
             this.BTNproductos.Image = global::Farmacia.Properties.Resources.producto1;
             this.BTNproductos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNproductos.Location = new System.Drawing.Point(0, 192);
-            this.BTNproductos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNproductos.Margin = new System.Windows.Forms.Padding(4);
             this.BTNproductos.Name = "BTNproductos";
             this.BTNproductos.Size = new System.Drawing.Size(299, 39);
             this.BTNproductos.TabIndex = 2;
@@ -753,7 +753,7 @@ namespace Farmacia
             // 
             this.pictureBox1.Image = global::Farmacia.Properties.Resources.Farmacia;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(299, 138);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -770,7 +770,7 @@ namespace Farmacia
             this.Controls.Add(this.menuvertical);
             this.Controls.Add(this.Barra_titulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
