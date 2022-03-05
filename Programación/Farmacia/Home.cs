@@ -84,6 +84,8 @@ namespace Farmacia
             this.WindowState = FormWindowState.Maximized;
             BTNmaximizar.Visible = false;
             BTNrestaurar.Visible = true;
+            BTNsalir.Location = new Point(1, 650);
+            Plogo.Location = new Point(365, 165);
         }
 
         private void BTNrestaurar_Click_1(object sender, EventArgs e)
@@ -91,6 +93,8 @@ namespace Farmacia
             this.WindowState = FormWindowState.Normal;
             BTNrestaurar.Visible = false;
             BTNmaximizar.Visible = true;
+            BTNsalir.Location = new Point(1, 533);
+            Plogo.Location = new Point(198, 114);
         }
 
         private void BTNmini_Click(object sender, EventArgs e)
