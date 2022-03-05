@@ -10,16 +10,17 @@ using System.Windows.Forms;
 
 namespace Farmacia
 {
-    public partial class Perfiles : Form
+    public partial class FormLogo : Form
     {
-        public Perfiles()
+        public FormLogo()
         {
             InitializeComponent();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void HoraFecha_Tick(object sender, EventArgs e)
         {
-            this.Close();
+            lblHora.Text = DateTime.Now.ToString("HH:mm:ss");
+            lblFecha.Text = DateTime.Now.ToLongDateString();
         }
     }
 }

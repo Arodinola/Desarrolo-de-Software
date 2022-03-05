@@ -148,6 +148,17 @@ namespace Farmacia
             }
         }
 
+
+        private void MostrarLogo()
+        {
+            AbrirFormEnPanel(new FormLogo());
+        }
+
+        private void MostrarLogoAlCerrar(object sender, FormClosedEventArgs e)
+        {
+            MostrarLogo();
+        }
+
         private void BTNreportV_Click(object sender, EventArgs e)
         {
 
@@ -172,12 +183,16 @@ namespace Farmacia
 
         private void button4_Click(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new Clientes());
+            Clientes frm = new Clientes();
+            frm.FormClosed += new FormClosedEventHandler(MostrarLogoAlCerrar);
+            AbrirFormEnPanel(frm);
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new Proveedores());
+            Proveedores frm = new Proveedores();
+            frm.FormClosed += new FormClosedEventHandler(MostrarLogoAlCerrar);
+            AbrirFormEnPanel(frm);
 
         }
 
@@ -233,7 +248,9 @@ namespace Farmacia
 
         private void BTNusuarios_Click(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new FormUsuarios1());
+            FormUsuarios1 frm = new FormUsuarios1();
+            frm.FormClosed += new FormClosedEventHandler(MostrarLogoAlCerrar);
+            AbrirFormEnPanel(frm);
         }
         private void Abrirusuarios(object FUsuarios)
         {
@@ -251,7 +268,9 @@ namespace Farmacia
 
         private void BTNperfiles_Click(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new Perfiles());
+            Perfiles frm = new Perfiles();
+            frm.FormClosed += new FormClosedEventHandler(MostrarLogoAlCerrar);
+            AbrirFormEnPanel(frm);
         }
 
         private void BTNproductos_Click(object sender, EventArgs e)
@@ -307,22 +326,30 @@ namespace Farmacia
 
         private void BTNcatalogo_Click(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new Frm_CategoriaProducto());
+            Frm_CategoriaProducto frm = new Frm_CategoriaProducto();
+            frm.FormClosed += new FormClosedEventHandler(MostrarLogoAlCerrar);
+            AbrirFormEnPanel(frm);
         }
 
         private void BTNusos_Click(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new Frm_Usos());
+            Frm_Usos frm = new Frm_Usos();
+            frm.FormClosed += new FormClosedEventHandler(MostrarLogoAlCerrar);
+            AbrirFormEnPanel(frm);
         }
 
         private void BTNlab_Click(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new Frm_Laboratorios());
+            Frm_Laboratorios frm = new Frm_Laboratorios();
+            frm.FormClosed += new FormClosedEventHandler(MostrarLogoAlCerrar);
+            AbrirFormEnPanel(frm);
         }
 
         private void BTNventas_Click(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new FormVentas1());
+            FormVentas1 frm = new FormVentas1();
+            frm.FormClosed += new FormClosedEventHandler(MostrarLogoAlCerrar);
+            AbrirFormEnPanel(frm);
         }
 
         private void BTNcompras_Click(object sender, EventArgs e)
@@ -332,7 +359,9 @@ namespace Farmacia
 
         private void BTNinventario_Click(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new Frm_Producto());
+            Frm_Producto frm = new Frm_Producto();
+            frm.FormClosed += new FormClosedEventHandler(MostrarLogoAlCerrar);
+            AbrirFormEnPanel(frm);
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -348,6 +377,12 @@ namespace Farmacia
             panel2.Location = new Point(1, 118);
             panelempleados.Hide();
 
+        }
+
+        private void HoraFecha_Tick(object sender, EventArgs e)
+        {
+            lblHora.Text = DateTime.Now.ToString("HH:mm:ss");
+            lblFecha.Text = DateTime.Now.ToLongDateString();
         }
     }
 }

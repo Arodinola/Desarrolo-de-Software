@@ -71,10 +71,12 @@ namespace Farmacia
             this.btnCancelar = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProducto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalleProducto)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -96,7 +98,7 @@ namespace Farmacia
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.textBox1.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(187, 108);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(191, 26);
             this.textBox1.TabIndex = 2;
@@ -106,7 +108,7 @@ namespace Farmacia
             this.txtVendedor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.txtVendedor.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVendedor.Location = new System.Drawing.Point(1215, 695);
-            this.txtVendedor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtVendedor.Margin = new System.Windows.Forms.Padding(4);
             this.txtVendedor.Name = "txtVendedor";
             this.txtVendedor.Size = new System.Drawing.Size(180, 26);
             this.txtVendedor.TabIndex = 2;
@@ -142,7 +144,7 @@ namespace Farmacia
             this.Usos});
             this.dgvProducto.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dgvProducto.Location = new System.Drawing.Point(16, 296);
-            this.dgvProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvProducto.Margin = new System.Windows.Forms.Padding(4);
             this.dgvProducto.Name = "dgvProducto";
             this.dgvProducto.RowHeadersWidth = 51;
             this.dgvProducto.Size = new System.Drawing.Size(1037, 197);
@@ -217,7 +219,7 @@ namespace Farmacia
             this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.textBox3.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(200, 241);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(180, 26);
             this.textBox3.TabIndex = 2;
@@ -242,7 +244,7 @@ namespace Farmacia
             this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.textBox4.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(187, 152);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(337, 26);
             this.textBox4.TabIndex = 2;
@@ -275,7 +277,7 @@ namespace Farmacia
             this.Total_Produc});
             this.dgvDetalleProducto.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dgvDetalleProducto.Location = new System.Drawing.Point(16, 524);
-            this.dgvDetalleProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvDetalleProducto.Margin = new System.Windows.Forms.Padding(4);
             this.dgvDetalleProducto.Name = "dgvDetalleProducto";
             this.dgvDetalleProducto.RowHeadersWidth = 51;
             this.dgvDetalleProducto.Size = new System.Drawing.Size(747, 197);
@@ -352,9 +354,9 @@ namespace Farmacia
             this.groupBox1.Controls.Add(this.textBox6);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.groupBox1.Location = new System.Drawing.Point(1127, 16);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(291, 250);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
@@ -409,7 +411,7 @@ namespace Farmacia
             // 
             this.textBox10.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox10.Location = new System.Drawing.Point(113, 103);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox10.Margin = new System.Windows.Forms.Padding(4);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(119, 26);
             this.textBox10.TabIndex = 2;
@@ -418,7 +420,7 @@ namespace Farmacia
             // 
             this.textBox9.Font = new System.Drawing.Font("Sitka Small", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox9.Location = new System.Drawing.Point(113, 159);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(4);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(119, 37);
             this.textBox9.TabIndex = 2;
@@ -427,7 +429,7 @@ namespace Farmacia
             // 
             this.textBox8.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox8.Location = new System.Drawing.Point(113, 29);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(119, 26);
             this.textBox8.TabIndex = 2;
@@ -436,7 +438,7 @@ namespace Farmacia
             // 
             this.textBox6.Font = new System.Drawing.Font("Sitka Small", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox6.Location = new System.Drawing.Point(113, 66);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(119, 26);
             this.textBox6.TabIndex = 2;
@@ -445,7 +447,7 @@ namespace Farmacia
             // 
             this.txtCantidad.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.txtCantidad.Location = new System.Drawing.Point(890, 244);
-            this.txtCantidad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCantidad.Margin = new System.Windows.Forms.Padding(4);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(163, 23);
             this.txtCantidad.TabIndex = 14;
@@ -460,7 +462,7 @@ namespace Farmacia
             this.btnImprimirFactura.Image = global::Farmacia.Properties.Resources.printer_78349;
             this.btnImprimirFactura.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnImprimirFactura.Location = new System.Drawing.Point(1229, 607);
-            this.btnImprimirFactura.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnImprimirFactura.Margin = new System.Windows.Forms.Padding(4);
             this.btnImprimirFactura.Name = "btnImprimirFactura";
             this.btnImprimirFactura.Size = new System.Drawing.Size(168, 56);
             this.btnImprimirFactura.TabIndex = 13;
@@ -477,7 +479,7 @@ namespace Farmacia
             this.btnQuitarProduc.Image = global::Farmacia.Properties.Resources.trash_can_115312;
             this.btnQuitarProduc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnQuitarProduc.Location = new System.Drawing.Point(1229, 525);
-            this.btnQuitarProduc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnQuitarProduc.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuitarProduc.Name = "btnQuitarProduc";
             this.btnQuitarProduc.Size = new System.Drawing.Size(168, 56);
             this.btnQuitarProduc.TabIndex = 12;
@@ -494,7 +496,7 @@ namespace Farmacia
             this.btnCancelar.Image = global::Farmacia.Properties.Resources.cancel_stop_exit_1583__1_;
             this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCancelar.Location = new System.Drawing.Point(1229, 433);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(168, 56);
             this.btnCancelar.TabIndex = 11;
@@ -523,12 +525,23 @@ namespace Farmacia
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(416, 228);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(118, 50);
             this.button1.TabIndex = 72;
             this.button1.Text = "Buscar";
             this.button1.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 11);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(41, 47);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 74;
+            this.pictureBox1.TabStop = false;
             // 
             // Frm_Ventas
             // 
@@ -537,6 +550,7 @@ namespace Farmacia
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.ClientSize = new System.Drawing.Size(1434, 757);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtCantidad);
@@ -559,7 +573,7 @@ namespace Farmacia
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_Ventas";
             this.Text = "Ventas";
             this.Load += new System.EventHandler(this.Ventas_Load);
@@ -568,6 +582,7 @@ namespace Farmacia
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -616,5 +631,6 @@ namespace Farmacia
         private System.Windows.Forms.TextBox txtCantidad;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

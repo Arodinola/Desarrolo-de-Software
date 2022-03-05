@@ -29,6 +29,7 @@ namespace Farmacia
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.Barra_titulo = new System.Windows.Forms.Panel();
             this.BTNrestaurar = new System.Windows.Forms.PictureBox();
             this.BTNmini = new System.Windows.Forms.PictureBox();
@@ -37,7 +38,6 @@ namespace Farmacia
             this.panelcontenedor = new System.Windows.Forms.Panel();
             this.panelCont = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
@@ -45,6 +45,8 @@ namespace Farmacia
             this.button8 = new System.Windows.Forms.Button();
             this.menuvertical = new System.Windows.Forms.Panel();
             this.SUBMENUreportes = new System.Windows.Forms.Panel();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel10 = new System.Windows.Forms.Panel();
             this.BTNreportV = new System.Windows.Forms.Button();
             this.panelempleados = new System.Windows.Forms.Panel();
@@ -77,6 +79,10 @@ namespace Farmacia
             this.BTNventas = new System.Windows.Forms.Button();
             this.BTNproductos = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblFecha = new System.Windows.Forms.Label();
+            this.lblHora = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.HoraFecha = new System.Windows.Forms.Timer(this.components);
             this.Barra_titulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BTNrestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BTNmini)).BeginInit();
@@ -85,7 +91,6 @@ namespace Farmacia
             this.panelcontenedor.SuspendLayout();
             this.panelCont.SuspendLayout();
             this.panel14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             this.menuvertical.SuspendLayout();
             this.SUBMENUreportes.SuspendLayout();
@@ -93,6 +98,7 @@ namespace Farmacia
             this.panelproductos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BTNsalir)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // Barra_titulo
@@ -196,6 +202,8 @@ namespace Farmacia
             // 
             this.panel14.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.panel14.Controls.Add(this.lblFecha);
+            this.panel14.Controls.Add(this.lblHora);
             this.panel14.Controls.Add(this.pictureBox2);
             this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel14.Location = new System.Drawing.Point(0, 0);
@@ -203,17 +211,6 @@ namespace Farmacia
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(1434, 757);
             this.panel14.TabIndex = 9;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Farmacia.Properties.Resources.Farmacia1;
-            this.pictureBox2.Location = new System.Drawing.Point(264, 140);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(597, 412);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // panel1
             // 
@@ -314,14 +311,42 @@ namespace Farmacia
             // 
             // SUBMENUreportes
             // 
+            this.SUBMENUreportes.Controls.Add(this.panel12);
+            this.SUBMENUreportes.Controls.Add(this.button2);
             this.SUBMENUreportes.Controls.Add(this.panel10);
             this.SUBMENUreportes.Controls.Add(this.BTNreportV);
             this.SUBMENUreportes.Location = new System.Drawing.Point(55, 514);
             this.SUBMENUreportes.Margin = new System.Windows.Forms.Padding(4);
             this.SUBMENUreportes.Name = "SUBMENUreportes";
-            this.SUBMENUreportes.Size = new System.Drawing.Size(239, 46);
+            this.SUBMENUreportes.Size = new System.Drawing.Size(249, 87);
             this.SUBMENUreportes.TabIndex = 0;
             this.SUBMENUreportes.Visible = false;
+            // 
+            // panel12
+            // 
+            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel12.Location = new System.Drawing.Point(2, 42);
+            this.panel12.Margin = new System.Windows.Forms.Padding(4);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(7, 34);
+            this.panel12.TabIndex = 8;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(6, 42);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(235, 34);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Reporte Inventario";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // panel10
             // 
@@ -425,7 +450,7 @@ namespace Farmacia
             this.panelproductos.Controls.Add(this.BTNusos);
             this.panelproductos.Controls.Add(this.panel20);
             this.panelproductos.Controls.Add(this.BTNcatalogo);
-            this.panelproductos.Location = new System.Drawing.Point(55, 229);
+            this.panelproductos.Location = new System.Drawing.Point(54, 234);
             this.panelproductos.Margin = new System.Windows.Forms.Padding(4);
             this.panelproductos.Name = "panelproductos";
             this.panelproductos.Size = new System.Drawing.Size(239, 127);
@@ -761,6 +786,45 @@ namespace Farmacia
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // lblFecha
+            // 
+            this.lblFecha.AutoSize = true;
+            this.lblFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFecha.ForeColor = System.Drawing.Color.SlateGray;
+            this.lblFecha.Location = new System.Drawing.Point(16, 131);
+            this.lblFecha.Name = "lblFecha";
+            this.lblFecha.Size = new System.Drawing.Size(159, 58);
+            this.lblFecha.TabIndex = 6;
+            this.lblFecha.Text = "label2";
+            // 
+            // lblHora
+            // 
+            this.lblHora.AutoSize = true;
+            this.lblHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHora.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lblHora.Location = new System.Drawing.Point(7, 9);
+            this.lblHora.Name = "lblHora";
+            this.lblHora.Size = new System.Drawing.Size(318, 113);
+            this.lblHora.TabIndex = 5;
+            this.lblHora.Text = "label1";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.Image = global::Farmacia.Properties.Resources.Farmacia1;
+            this.pictureBox2.Location = new System.Drawing.Point(449, 286);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(597, 412);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            // 
+            // HoraFecha
+            // 
+            this.HoraFecha.Enabled = true;
+            this.HoraFecha.Tick += new System.EventHandler(this.HoraFecha_Tick);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -782,7 +846,7 @@ namespace Farmacia
             this.panelcontenedor.ResumeLayout(false);
             this.panelCont.ResumeLayout(false);
             this.panel14.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel14.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.menuvertical.ResumeLayout(false);
             this.SUBMENUreportes.ResumeLayout(false);
@@ -790,6 +854,7 @@ namespace Farmacia
             this.panelproductos.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.BTNsalir)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -843,6 +908,11 @@ namespace Farmacia
         private System.Windows.Forms.Button BTNusos;
         private System.Windows.Forms.Panel panel20;
         private System.Windows.Forms.Button BTNcatalogo;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label lblFecha;
+        private System.Windows.Forms.Label lblHora;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Timer HoraFecha;
     }
 }
