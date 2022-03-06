@@ -84,6 +84,7 @@ namespace Farmacia
             this.WindowState = FormWindowState.Maximized;
             BTNmaximizar.Visible = false;
             BTNrestaurar.Visible = true;
+            BTNsalir.Location = new Point(1, 670);
         }
 
         private void BTNrestaurar_Click_1(object sender, EventArgs e)
@@ -91,6 +92,7 @@ namespace Farmacia
             this.WindowState = FormWindowState.Normal;
             BTNrestaurar.Visible = false;
             BTNmaximizar.Visible = true;
+            BTNsalir.Location = new Point(1, 533);
         }
 
         private void BTNmini_Click(object sender, EventArgs e)
@@ -117,17 +119,13 @@ namespace Farmacia
             panel4.Location = new Point(1, 194);
             BTNventas.Location = new Point(4, 232);
             panel3.Location = new Point(1, 232);
-            BTNcompras.Location = new Point(4, 270);
-            panel5.Location = new Point(1, 270);
-            BTNinventario.Location = new Point(4, 308);
-            panel13.Location = new Point(1, 308);
-            BTNproveedores.Location = new Point(4, 346);
-            panel7.Location = new Point(1, 346);
-            BTNreportes.Location = new Point(4, 384);
-            panel8.Location = new Point(1, 384);
+            BTNproveedores.Location = new Point(4, 272);
+            panel7.Location = new Point(1, 272);
+            BTNreportes.Location = new Point(4, 310);
+            panel8.Location = new Point(1, 310);
             panelempleados.Visible = false;
             panelproductos.Visible = false;
-            SUBMENUreportes.Location = new Point(41, 418);
+            SUBMENUreportes.Location = new Point(41, 344);
             if (SUBMENUreportes.Visible == false)
             {
                 BTNproductos.Location = new Point(4, 156);
@@ -136,14 +134,10 @@ namespace Farmacia
                 panel4.Location = new Point(1, 194);
                 BTNventas.Location = new Point(4, 232);
                 panel3.Location = new Point(1, 232);
-                BTNcompras.Location = new Point(4, 270);
-                panel5.Location = new Point(1, 270);
-                BTNinventario.Location = new Point(4, 308);
-                panel13.Location = new Point(1, 308);
-                BTNproveedores.Location = new Point(4, 346);
-                panel7.Location = new Point(1, 346);
-                BTNreportes.Location = new Point(4, 384);
-                panel8.Location = new Point(1, 384);
+                BTNproveedores.Location = new Point(4, 272);
+                panel7.Location = new Point(1, 272);
+                BTNreportes.Location = new Point(4, 310);
+                panel8.Location = new Point(1, 310);
 
             }
         }
@@ -209,21 +203,17 @@ namespace Farmacia
 
             //Coordenadas de los botones
             //posiciones finales
-            panelempleados.Location = new Point(41,153);
-            BTNproductos.Location = new Point(4,217);
-            panel2.Location = new Point(1,217);
-            BTNclientes.Location = new Point(4, 255);
-            panel4.Location = new Point(1, 255);
-            BTNventas.Location = new Point(4, 293);
-            panel3.Location = new Point(1, 293);
-            BTNcompras.Location = new Point(4, 331);
-            panel5.Location = new Point(1, 331);
-            BTNinventario.Location = new Point(4, 369);
-            panel13.Location = new Point(1, 369);
-            BTNproveedores.Location = new Point(4, 407);
-            panel7.Location = new Point(1, 407);
-            BTNreportes.Location = new Point(4, 445);
-            panel8.Location = new Point(1, 445);
+            panelempleados.Location = new Point(41,151);
+            BTNproductos.Location = new Point(4,251);
+            panel2.Location = new Point(1,251);
+            BTNclientes.Location = new Point(4, 289);
+            panel4.Location = new Point(1, 289);
+            BTNventas.Location = new Point(4, 327);
+            panel3.Location = new Point(1, 327);
+            BTNproveedores.Location = new Point(4, 365);
+            panel7.Location = new Point(1, 365);
+            BTNreportes.Location = new Point(4, 403);
+            panel8.Location = new Point(1, 403);
             panelproductos.Visible = false;
             SUBMENUreportes.Visible = false;
             if (panelempleados.Visible == false)
@@ -234,14 +224,10 @@ namespace Farmacia
                 panel4.Location = new Point(1, 194);
                 BTNventas.Location = new Point(4, 232);
                 panel3.Location = new Point(1, 232);
-                BTNcompras.Location = new Point(4, 270);
-                panel5.Location = new Point(1, 270);
-                BTNinventario.Location = new Point(4, 308);
-                panel13.Location = new Point(1, 308);
-                BTNproveedores.Location = new Point(4, 346);
-                panel7.Location = new Point(1, 346);
-                BTNreportes.Location = new Point(4, 384);
-                panel8.Location = new Point(1, 384);
+                BTNproveedores.Location = new Point(4, 272);
+                panel7.Location = new Point(1, 272);
+                BTNreportes.Location = new Point(4, 310);
+                panel8.Location = new Point(1, 310);
 
             }
         }
@@ -286,22 +272,18 @@ namespace Farmacia
 
             //Coordenadas de los botones
             //posiciones finales
-            panelproductos.Location = new Point(41, 186);
+            panelproductos.Location = new Point(41, 190);
             BTNproductos.Location = new Point(4, 156);
             panel2.Location = new Point(1, 156);
 
-            BTNclientes.Location = new Point(4, 291);
-            panel4.Location = new Point(1, 291);
-            BTNventas.Location = new Point(4, 329);
-            panel3.Location = new Point(1, 329);
-            BTNcompras.Location = new Point(4, 367);
-            panel5.Location = new Point(1, 367);
-            BTNinventario.Location = new Point(4, 405);
-            panel13.Location = new Point(1, 405);
-            BTNproveedores.Location = new Point(4, 443);
-            panel7.Location = new Point(1, 443);
-            BTNreportes.Location = new Point(4, 481);
-            panel8.Location = new Point(1, 481);
+            BTNclientes.Location = new Point(4, 328);
+            panel4.Location = new Point(1, 328);
+            BTNventas.Location = new Point(4, 366);
+            panel3.Location = new Point(1, 366);
+            BTNproveedores.Location = new Point(4, 404);
+            panel7.Location = new Point(1, 404);
+            BTNreportes.Location = new Point(4, 442);
+            panel8.Location = new Point(1, 442);
             panelempleados.Visible = false;
             SUBMENUreportes.Visible = false;
             if (panelproductos.Visible == false)
@@ -312,14 +294,10 @@ namespace Farmacia
                 panel4.Location = new Point(1, 194);
                 BTNventas.Location = new Point(4, 232);
                 panel3.Location = new Point(1, 232);
-                BTNcompras.Location = new Point(4, 270);
-                panel5.Location = new Point(1, 270);
-                BTNinventario.Location = new Point(4, 308);
-                panel13.Location = new Point(1, 308);
-                BTNproveedores.Location = new Point(4, 346);
-                panel7.Location = new Point(1, 346);
-                BTNreportes.Location = new Point(4, 384);
-                panel8.Location = new Point(1, 384);
+                BTNproveedores.Location = new Point(4, 272);
+                panel7.Location = new Point(1, 272);
+                BTNreportes.Location = new Point(4, 310);
+                panel8.Location = new Point(1, 310);
 
             }
         }
@@ -383,6 +361,13 @@ namespace Farmacia
         {
             lblHora.Text = DateTime.Now.ToString("HH:mm:ss");
             lblFecha.Text = DateTime.Now.ToLongDateString();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Frm_Producto frm = new Frm_Producto();
+            frm.FormClosed += new FormClosedEventHandler(MostrarLogoAlCerrar);
+            AbrirFormEnPanel(frm);
         }
     }
 }

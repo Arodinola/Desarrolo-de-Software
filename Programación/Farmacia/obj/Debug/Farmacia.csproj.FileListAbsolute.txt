@@ -39,7 +39,6 @@ D:\Documentos\GitHub2\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Far
 D:\Documentos\GitHub2\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Proveedores.resources
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Clientes.resources
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Proveedores.resources
-C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Usuarios.resources
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Perfiles.resources
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_CategoriaProducto.resources
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Laboratorios.resources
@@ -56,3 +55,7 @@ D:\Documentos\GitHub2\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Far
 D:\Documentos\GitHub2\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.FormVentas1.resources
 D:\Documentos\GitHub2\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.FormPresentacion.resources
 D:\Documentos\GitHub2\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.FormLogo.resources
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.FormLogo.resources
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.FormPresentacion.resources
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.FormUsuarios1.resources
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.FormVentas1.resources
