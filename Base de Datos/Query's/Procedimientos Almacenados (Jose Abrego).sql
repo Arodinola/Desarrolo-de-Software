@@ -3,7 +3,6 @@
 --DBCC CHECKIDENT ('Compras', RESEED, 1)
 
 -----------------------------------------------------------PROCEDIMIENTOS ALMACENADOS PARA PRODUCTOS--------------------------------------
-
 --------------------------------------------------------------------------------BUSCAR POR NOMBRE---------------------------------------------------------
 ALTER PROCEDURE ConsultaProductoPorNombre
 @NombreProducto Varchar(30)
