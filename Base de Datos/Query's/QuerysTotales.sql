@@ -445,6 +445,7 @@ ON P.PKIdPerfiles = Usuarios.FKPerfiles
 WHERE PKIdUsuario = @IDUsuario  AND estadoUsuario != 0
 GO
 
+EXEC ConsultaUsuarioPorID 3
 
 CREATE PROCEDURE ConsultaUsuarioGeneral
 AS
@@ -468,6 +469,8 @@ INNER JOIN Perfiles P
 ON P.PKIdPerfiles = Usuarios.FKPerfiles
 WHERE Usuario LIKE CONCAT (@User, '%%') AND estadoUsuario !=0
 GO
+
+EXEC ConsultaPorUsuario 'J'
 ------------------------------------------------------------CRUD USUARIOS------------------------------------------------------------
 
 CREATE PROCEDURE InsertarUsuario

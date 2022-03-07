@@ -61,3 +61,29 @@ C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.FormVentas1.resources
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Empleados_registro.resources
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Registro_emp.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\bin\Debug\Farmacia.exe.config
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\bin\Debug\Farmacia.exe
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\bin\Debug\Farmacia.pdb
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.csproj.AssemblyReference.cache
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Clientes.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Empleados_registro.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Form1.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.FormLogo.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.FormPresentacion.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.FormUsuarios1.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.FormVentas1.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_CategoriaProducto.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Laboratorios.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Producto.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Usos.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Frm_Ventas.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Home.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Login_cajero.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Perfiles.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Properties.Resources.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Proveedores.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Registro_emp.resources
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.csproj.GenerateResource.cache
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.csproj.CoreCompileInputs.cache
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.exe
+C:\Users\Yobany Abrego\OneDrive\Documentos\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.pdb

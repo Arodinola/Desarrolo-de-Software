@@ -38,8 +38,8 @@ namespace Farmacia
             this.btncerrar = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.txtuser = new System.Windows.Forms.TextBox();
-            this.txtpass = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.txtClave = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnlogin = new System.Windows.Forms.Button();
             this.linkpass = new System.Windows.Forms.LinkLabel();
@@ -65,9 +65,8 @@ namespace Farmacia
             this.Barra_titulo.Controls.Add(this.btncerrar);
             this.Barra_titulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.Barra_titulo.Location = new System.Drawing.Point(0, 0);
-            this.Barra_titulo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Barra_titulo.Name = "Barra_titulo";
-            this.Barra_titulo.Size = new System.Drawing.Size(1067, 107);
+            this.Barra_titulo.Size = new System.Drawing.Size(800, 87);
             this.Barra_titulo.TabIndex = 2;
             this.Barra_titulo.Paint += new System.Windows.Forms.PaintEventHandler(this.Barra_titulo_Paint);
             this.Barra_titulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Barra_titulo_MouseDown);
@@ -77,10 +76,9 @@ namespace Farmacia
             this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::Farmacia.Properties.Resources.minimazar;
-            this.pictureBox3.Location = new System.Drawing.Point(976, 15);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(732, 12);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(33, 31);
+            this.pictureBox3.Size = new System.Drawing.Size(25, 25);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
@@ -91,10 +89,9 @@ namespace Farmacia
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::Farmacia.Properties.Resources.cerrar;
-            this.pictureBox2.Location = new System.Drawing.Point(1017, 15);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(763, 12);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(33, 31);
+            this.pictureBox2.Size = new System.Drawing.Size(25, 25);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
@@ -106,10 +103,9 @@ namespace Farmacia
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnrestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnrestaurar.Image = global::Farmacia.Properties.Resources.res;
-            this.btnrestaurar.Location = new System.Drawing.Point(1632, 9);
-            this.btnrestaurar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnrestaurar.Location = new System.Drawing.Point(1224, 7);
             this.btnrestaurar.Name = "btnrestaurar";
-            this.btnrestaurar.Size = new System.Drawing.Size(0, 31);
+            this.btnrestaurar.Size = new System.Drawing.Size(0, 25);
             this.btnrestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnrestaurar.TabIndex = 7;
             this.btnrestaurar.TabStop = false;
@@ -121,10 +117,9 @@ namespace Farmacia
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnminimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnminimizar.Image = global::Farmacia.Properties.Resources.minimazar;
-            this.btnminimizar.Location = new System.Drawing.Point(1591, 9);
-            this.btnminimizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnminimizar.Location = new System.Drawing.Point(1193, 7);
             this.btnminimizar.Name = "btnminimizar";
-            this.btnminimizar.Size = new System.Drawing.Size(0, 31);
+            this.btnminimizar.Size = new System.Drawing.Size(0, 25);
             this.btnminimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnminimizar.TabIndex = 6;
             this.btnminimizar.TabStop = false;
@@ -135,10 +130,9 @@ namespace Farmacia
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMaximizar.Image = global::Farmacia.Properties.Resources.maxi;
-            this.btnMaximizar.Location = new System.Drawing.Point(1632, 9);
-            this.btnMaximizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMaximizar.Location = new System.Drawing.Point(1224, 7);
             this.btnMaximizar.Name = "btnMaximizar";
-            this.btnMaximizar.Size = new System.Drawing.Size(0, 31);
+            this.btnMaximizar.Size = new System.Drawing.Size(0, 25);
             this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMaximizar.TabIndex = 5;
             this.btnMaximizar.TabStop = false;
@@ -149,10 +143,9 @@ namespace Farmacia
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btncerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btncerrar.Image = global::Farmacia.Properties.Resources.cerrar;
-            this.btncerrar.Location = new System.Drawing.Point(1673, 9);
-            this.btncerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btncerrar.Location = new System.Drawing.Point(1255, 7);
             this.btncerrar.Name = "btncerrar";
-            this.btncerrar.Size = new System.Drawing.Size(0, 31);
+            this.btncerrar.Size = new System.Drawing.Size(0, 25);
             this.btncerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btncerrar.TabIndex = 4;
             this.btncerrar.TabStop = false;
@@ -162,60 +155,55 @@ namespace Farmacia
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(564, 127);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(423, 103);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(147, 47);
+            this.label1.Size = new System.Drawing.Size(118, 38);
             this.label1.TabIndex = 7;
             this.label1.Text = "LOGIN";
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(345, 234);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Location = new System.Drawing.Point(259, 190);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(651, 1);
+            this.panel1.Size = new System.Drawing.Size(488, 1);
             this.panel1.TabIndex = 8;
             // 
-            // txtuser
+            // txtUsuario
             // 
-            this.txtuser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.txtuser.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtuser.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtuser.ForeColor = System.Drawing.Color.White;
-            this.txtuser.Location = new System.Drawing.Point(345, 202);
-            this.txtuser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtuser.Name = "txtuser";
-            this.txtuser.Size = new System.Drawing.Size(651, 30);
-            this.txtuser.TabIndex = 1;
-            this.txtuser.Text = "USUARIO";
-            this.txtuser.TextChanged += new System.EventHandler(this.txtuser_TextChanged);
-            this.txtuser.Enter += new System.EventHandler(this.txtuser_Enter);
-            this.txtuser.Leave += new System.EventHandler(this.txtuser_Leave);
+            this.txtUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtUsuario.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.ForeColor = System.Drawing.Color.White;
+            this.txtUsuario.Location = new System.Drawing.Point(259, 164);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(488, 24);
+            this.txtUsuario.TabIndex = 1;
+            this.txtUsuario.Text = "USUARIO";
+            this.txtUsuario.TextChanged += new System.EventHandler(this.txtuser_TextChanged);
+            this.txtUsuario.Enter += new System.EventHandler(this.txtuser_Enter);
+            this.txtUsuario.Leave += new System.EventHandler(this.txtuser_Leave);
             // 
-            // txtpass
+            // txtClave
             // 
-            this.txtpass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.txtpass.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtpass.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpass.ForeColor = System.Drawing.Color.White;
-            this.txtpass.Location = new System.Drawing.Point(345, 289);
-            this.txtpass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtpass.Name = "txtpass";
-            this.txtpass.Size = new System.Drawing.Size(651, 30);
-            this.txtpass.TabIndex = 2;
-            this.txtpass.Text = "CONTRASEÑA";
-            this.txtpass.Enter += new System.EventHandler(this.txtpass_Enter);
-            this.txtpass.Leave += new System.EventHandler(this.txtpass_Leave);
+            this.txtClave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.txtClave.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtClave.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtClave.ForeColor = System.Drawing.Color.White;
+            this.txtClave.Location = new System.Drawing.Point(259, 235);
+            this.txtClave.Name = "txtClave";
+            this.txtClave.Size = new System.Drawing.Size(488, 24);
+            this.txtClave.TabIndex = 2;
+            this.txtClave.Text = "CONTRASEÑA";
+            this.txtClave.Enter += new System.EventHandler(this.txtpass_Enter);
+            this.txtClave.Leave += new System.EventHandler(this.txtpass_Leave);
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Location = new System.Drawing.Point(345, 321);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Location = new System.Drawing.Point(259, 261);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(651, 1);
+            this.panel2.Size = new System.Drawing.Size(488, 1);
             this.panel2.TabIndex = 10;
             // 
             // btnlogin
@@ -226,10 +214,9 @@ namespace Farmacia
             this.btnlogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.btnlogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnlogin.ForeColor = System.Drawing.Color.White;
-            this.btnlogin.Location = new System.Drawing.Point(373, 359);
-            this.btnlogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnlogin.Location = new System.Drawing.Point(280, 292);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(544, 49);
+            this.btnlogin.Size = new System.Drawing.Size(408, 40);
             this.btnlogin.TabIndex = 3;
             this.btnlogin.Text = "ACCEDER";
             this.btnlogin.UseVisualStyleBackColor = false;
@@ -240,10 +227,9 @@ namespace Farmacia
             this.linkpass.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.linkpass.AutoSize = true;
             this.linkpass.LinkColor = System.Drawing.Color.White;
-            this.linkpass.Location = new System.Drawing.Point(569, 442);
-            this.linkpass.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.linkpass.Location = new System.Drawing.Point(427, 359);
             this.linkpass.Name = "linkpass";
-            this.linkpass.Size = new System.Drawing.Size(154, 16);
+            this.linkpass.Size = new System.Drawing.Size(125, 13);
             this.linkpass.TabIndex = 0;
             this.linkpass.TabStop = true;
             this.linkpass.Text = "Olvidaste tu contraseña?";
@@ -252,10 +238,9 @@ namespace Farmacia
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Image = global::Farmacia.Properties.Resources.Diseño_sin_título__2_;
-            this.pictureBox1.Location = new System.Drawing.Point(-107, -22);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(-80, -18);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(461, 633);
+            this.pictureBox1.Size = new System.Drawing.Size(346, 514);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -263,21 +248,20 @@ namespace Farmacia
             // 
             // Login_cajero
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.ClientSize = new System.Drawing.Size(1067, 492);
+            this.ClientSize = new System.Drawing.Size(800, 400);
             this.Controls.Add(this.linkpass);
             this.Controls.Add(this.btnlogin);
-            this.Controls.Add(this.txtpass);
+            this.Controls.Add(this.txtClave);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.txtuser);
+            this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Barra_titulo);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Login_cajero";
             this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -310,8 +294,8 @@ namespace Farmacia
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox txtuser;
-        private System.Windows.Forms.TextBox txtpass;
+        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.TextBox txtClave;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnlogin;
         private System.Windows.Forms.LinkLabel linkpass;

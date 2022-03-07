@@ -52,6 +52,7 @@
     <Compile Include="Clientes.Designer.cs">
       <DependentUpon>Clientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Conexion.cs" />
     <Compile Include="Empleados_registro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +125,7 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs" />
     <Compile Include="Login_cajero.cs">
       <SubType>Form</SubType>
     </Compile>

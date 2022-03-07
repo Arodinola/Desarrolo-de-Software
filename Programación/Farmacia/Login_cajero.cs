@@ -39,37 +39,37 @@ namespace Farmacia
 
         private void txtuser_Enter(object sender, EventArgs e)
         {
-            if (txtuser.Text == "USUARIO"){
-                txtuser.Text = "";
-                txtuser.ForeColor = Color.White;
+            if (txtUsuario.Text == "USUARIO"){
+                txtUsuario.Text = "";
+                txtUsuario.ForeColor = Color.White;
             }
         }
 
         private void txtuser_Leave(object sender, EventArgs e)
         {
-            if (txtuser.Text==""){
-                txtuser.Text = "USUARIO";
-                txtuser.ForeColor = Color.White;
+            if (txtUsuario.Text==""){
+                txtUsuario.Text = "USUARIO";
+                txtUsuario.ForeColor = Color.White;
             }
         }
 
         private void txtpass_Enter(object sender, EventArgs e)
         {
-            if (txtpass.Text == "CONTRASEÑA")
+            if (txtClave.Text == "CONTRASEÑA")
             {
-                txtpass.Text = "";
-                txtpass.ForeColor = Color.White;
-                txtpass.UseSystemPasswordChar = true;
+                txtClave.Text = "";
+                txtClave.ForeColor = Color.White;
+                txtClave.UseSystemPasswordChar = true;
             }
         }
 
         private void txtpass_Leave(object sender, EventArgs e)
         {
-            if (txtpass.Text == "")
+            if (txtClave.Text == "")
             {
-                txtpass.Text = "CONTRASEÑA";
-                txtpass.ForeColor = Color.White;
-                txtpass.UseSystemPasswordChar = false;
+                txtClave.Text = "CONTRASEÑA";
+                txtClave.ForeColor = Color.White;
+                txtClave.UseSystemPasswordChar = false;
             }
         }
 
@@ -94,9 +94,32 @@ namespace Farmacia
         private void btnlogin_Click(object sender, EventArgs e)
         {
             Home menu = new Home();
-            this.Hide();
-            menu.ShowDialog();
+           
+            
+            Login login = new Login();
+
+            string us;
+            if (string.IsNullOrEmpty(txtUsuario.Text) || string.IsNullOrEmpty(txtClave.Text))
+            {
+                MessageBox.Show("Datos Inválidos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                login.Usuario = txtUsuario.Text;
+                login.Clave = txtClave.Text;
+                us = login.login();
+                if (us == "admin")
+                {
+                    this.Hide();
+                    menu.ShowDialog();
+                }
+                else if (us == "Ventas")
+                {
+
+                }
+            }
         }
+
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
