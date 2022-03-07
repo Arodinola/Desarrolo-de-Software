@@ -59,3 +59,5 @@ C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.FormPresentacion.resources
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.FormUsuarios1.resources
 C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.FormVentas1.resources
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Empleados_registro.resources
+C:\Users\LENOVO\Desktop\Analisis y  Diseño\Desarrollo de software\Desarrolo-de-Software\Programación\Farmacia\obj\Debug\Farmacia.Registro_emp.resources

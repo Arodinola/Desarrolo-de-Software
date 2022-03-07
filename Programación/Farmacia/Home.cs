@@ -369,5 +369,12 @@ namespace Farmacia
             frm.FormClosed += new FormClosedEventHandler(MostrarLogoAlCerrar);
             AbrirFormEnPanel(frm);
         }
+
+        private void BTNregistro_emp_Click(object sender, EventArgs e)
+        {
+            Registro_emp frm = new Registro_emp();
+            frm.FormClosed += new FormClosedEventHandler(MostrarLogoAlCerrar);
+            AbrirFormEnPanel(frm);
+        }
     }
 }

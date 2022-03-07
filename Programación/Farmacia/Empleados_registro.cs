@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Farmacia
 {
-    public partial class Perfiles : Form
+    public partial class Empleados_registro : Form
     {
-        public Perfiles()
+        public Empleados_registro()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void Perfiles_Load(object sender, EventArgs e)
-        {
-            //blablabla
         }
     }
 }
